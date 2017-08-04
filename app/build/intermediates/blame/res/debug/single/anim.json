@@ -68,6 +68,10 @@
         "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/anim/lb_decelerator_2.xml"
     },
     {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/slide_left.xml",
+        "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/anim/slide_left.xml"
+    },
+    {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
         "source": "/home/abednego/.android/build-cache/387de3bd2cc543ca01e12a0ac948772cff96dc40/output/res/anim/abc_fade_out.xml"
     },

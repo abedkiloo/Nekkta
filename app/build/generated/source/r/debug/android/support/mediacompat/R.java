@@ -126,8 +126,8 @@ public final class R {
         public static final int TextAppearance_Compat_Notification = 0x7f09008f;
         public static final int TextAppearance_Compat_Notification_Info = 0x7f090090;
         public static final int TextAppearance_Compat_Notification_Info_Media = 0x7f090091;
-        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f090114;
-        public static final int TextAppearance_Compat_Notification_Line2_Media = 0x7f090115;
+        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f090112;
+        public static final int TextAppearance_Compat_Notification_Line2_Media = 0x7f090113;
         public static final int TextAppearance_Compat_Notification_Media = 0x7f090092;
         public static final int TextAppearance_Compat_Notification_Time = 0x7f090093;
         public static final int TextAppearance_Compat_Notification_Time_Media = 0x7f090094;

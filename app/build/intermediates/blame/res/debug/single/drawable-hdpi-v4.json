@@ -28,12 +28,12 @@
         "source": "/home/abednego/.android/build-cache/387de3bd2cc543ca01e12a0ac948772cff96dc40/output/res/drawable-hdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_ic_search_mic_out.png",
-        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/drawable-hdpi-v4/lb_ic_search_mic_out.png"
-    },
-    {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
         "source": "/home/abednego/.android/build-cache/2818b19a4aea3903c997996a0a6cc432756fd9a8/output/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_ic_search_mic_out.png",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/drawable-hdpi-v4/lb_ic_search_mic_out.png"
     },
     {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png",

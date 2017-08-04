@@ -17,9 +17,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.abednego.myapplication.Splash"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_fullscreen"
-            android:theme="@style/FullscreenTheme" >
+            android:label="@string/title_activity_fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +25,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.abednego.myapplication.Interactive" />
-        <activity android:name="com.example.abednego.myapplication.RegisterUser" />
+        <activity android:name="com.example.abednego.myapplication.RegisterUser" >
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"

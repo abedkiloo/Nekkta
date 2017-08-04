@@ -21,6 +21,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +39,7 @@ public class RegisterUser extends AppCompatActivity {
     TextInputEditText typed_response_edit_text;
     AppCompatButton btn_done;
     LinearLayoutCompat reg_main_linear;
+    Animation slide_left;
 
 
     @Override
@@ -50,7 +55,8 @@ public class RegisterUser extends AppCompatActivity {
         LocalBroadcastManager.getInstance(getApplicationContext()).
                 registerReceiver(user_response_receiver,
                         new IntentFilter(String.valueOf(R.string.custom_adapter_intent_values)));
-
+        //load animation to slide right
+        slide_left = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_left);
 
         //get reference of recycler view
         register_reRecyclerView = findViewById(R.id.recy_answers);
@@ -121,26 +127,47 @@ public class RegisterUser extends AppCompatActivity {
 
     private void create_account() {
         //hide the recyler
-        reg_main_linear
-                .animate()
-                .setDuration(2000)
-                .scaleY(1.0f)
-                .setListener(new AnimatorListenerAdapter() {
-                    @Override
-                    public void onAnimationStart(Animator animation) {
-                        super.onAnimationStart(animation);
-                        register_reRecyclerView.setVisibility(View.GONE);
-                    }
+        reg_main_linear.startAnimation(slide_left);
+        slide_left.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
+                register_reRecyclerView.setVisibility(View.GONE);
+                questioner_tv.setText(R.string.first_name_ask);
+                typed_response_edit_text.setVisibility(View.VISIBLE);
+                btn_done.setVisibility(View.VISIBLE);
 
-                    @Override
-                    public void onAnimationEnd(Animator animation) {
-                        super.onAnimationEnd(animation);
-                        questioner_tv.setText(R.string.first_name_ask);
-                        typed_response_edit_text.setVisibility(View.VISIBLE);
-                        btn_done.setVisibility(View.VISIBLE);
+            }
 
-                    }
-                });
+            @Override
+            public void onAnimationEnd(Animation animation) {
+
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
+            }
+        });
+
+//                .animate()
+//                .alpha(1.0f)
+//                .setListener(new AnimatorListenerAdapter() {
+//                    @Override
+//                    public void onAnimationStart(Animator animation) {
+//                        super.onAnimationStart(animation);
+//                        register_reRecyclerView.setVisibility(View.GONE);
+//                        questioner_tv.setText(R.string.first_name_ask);
+//                        typed_response_edit_text.setVisibility(View.VISIBLE);
+//                        btn_done.setVisibility(View.VISIBLE);
+//
+//                    }
+//
+//                    @Override
+//                    public void onAnimationEnd(Animator animation) {
+//                        super.onAnimationEnd(animation);
+//
+//                    }
+//                });
 
         //watch user typing
         typed_response_edit_text.addTextChangedListener(new TextWatcher() {

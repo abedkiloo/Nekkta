@@ -9,7 +9,7 @@ import android.view.animation.AnimationUtils;
 
 public class Splash extends AppCompatActivity {
     private AppCompatImageView splash_image;
-    Animation anim_rotate, anim_anti_rotate, anim_fade_in, anim_fade_out;
+    Animation anim_rotate, slide_right,slide_left, anim_fade_in, anim_fade_out;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,8 @@ public class Splash extends AppCompatActivity {
          *   load all animation references
          */
         anim_rotate = AnimationUtils.loadAnimation(getBaseContext(), R.anim.rotate);
-        anim_anti_rotate = AnimationUtils.loadAnimation(getBaseContext(), R.anim.slide_right);
+        slide_right = AnimationUtils.loadAnimation(getBaseContext(), R.anim.slide_right);
+        slide_left = AnimationUtils.loadAnimation(getBaseContext(), R.anim.slide_left);
         anim_fade_in = AnimationUtils.loadAnimation(getBaseContext(), R.anim.fade_in);
         anim_fade_out = AnimationUtils.loadAnimation(getBaseContext(), R.anim.fade_out);
 

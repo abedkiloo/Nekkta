@@ -1,19 +1,19 @@
 [
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/home/abednego/.android/build-cache/85bb9ddff5a48293beb31b8bcaf1bc595ebabdf7/output/res/layout/notification_media_action.xml"
-    },
-    {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/home/abednego/.android/build-cache/387de3bd2cc543ca01e12a0ac948772cff96dc40/output/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/lb_browse_fragment.xml",
-        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/layout/lb_browse_fragment.xml"
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/abednego/.android/build-cache/85bb9ddff5a48293beb31b8bcaf1bc595ebabdf7/output/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/lb_list_row.xml",
         "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/layout/lb_list_row.xml"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/lb_browse_fragment.xml",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/layout/lb_browse_fragment.xml"
     },
     {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/lb_guidance.xml",
@@ -40,16 +40,16 @@
         "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/layout/lb_action_1_line.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/home/abednego/.android/build-cache/85bb9ddff5a48293beb31b8bcaf1bc595ebabdf7/output/res/layout/notification_template_big_media.xml"
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/abednego/.android/build-cache/9e19410b384e261c9e5a2c102c16203a465e835e/output/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/lb_video_surface.xml",
         "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/layout/lb_video_surface.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/home/abednego/.android/build-cache/9e19410b384e261c9e5a2c102c16203a465e835e/output/res/layout/design_navigation_item_separator.xml"
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/abednego/.android/build-cache/85bb9ddff5a48293beb31b8bcaf1bc595ebabdf7/output/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
@@ -92,12 +92,12 @@
         "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/layout/lb_row_media_item.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/lb_picker.xml",
-        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/layout/lb_picker.xml"
-    },
-    {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/lb_control_button_secondary.xml",
         "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/layout/lb_control_button_secondary.xml"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/lb_picker.xml",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/layout/lb_picker.xml"
     },
     {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/lb_guidedstep_background.xml",
