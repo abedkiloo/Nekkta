@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/animator-v21/lb_onboarding_logo_enter.xml",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/animator-v21/lb_onboarding_logo_enter.xml"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/animator-v21/lb_onboarding_title_enter.xml",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/animator-v21/lb_onboarding_title_enter.xml"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/animator-v21/lb_playback_bg_fade_out.xml",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/animator-v21/lb_playback_bg_fade_out.xml"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/home/abednego/.android/build-cache/9e19410b384e261c9e5a2c102c16203a465e835e/output/res/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/animator-v21/lb_onboarding_description_enter.xml",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/animator-v21/lb_onboarding_description_enter.xml"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/animator-v21/lb_playback_description_fade_out.xml",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/animator-v21/lb_playback_description_fade_out.xml"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/animator-v21/lb_onboarding_logo_exit.xml",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/animator-v21/lb_onboarding_logo_exit.xml"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/animator-v21/lb_onboarding_page_indicator_enter.xml",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/animator-v21/lb_onboarding_page_indicator_enter.xml"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/animator-v21/lb_playback_bg_fade_in.xml",
+        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/animator-v21/lb_playback_bg_fade_in.xml"
+    }
+]

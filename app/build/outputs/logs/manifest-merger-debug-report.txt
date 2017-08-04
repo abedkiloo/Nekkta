@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support:design:26.0.0] /home/abednego/.android/build-cache/9e19410b384e261c9e5a2c102c16203a465e835e/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] /home/abednego/.android/build-cache/387de3bd2cc543ca01e12a0ac948772cff96dc40/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] /home/abednego/.android/build-cache/307e94b012e531631020b8611335945ce9fc8d29/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] /home/abednego/.android/build-cache/d94a243bb0791a6ed9e39be2f783436fbee149bb/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/abednego/.android/build-cache/ddb9182b026241f76c944b3bf0ef1543a727fc87/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.0] /home/abednego/.android/build-cache/ec950b4d8784d85b067afd9c32dd3ab1d4a5fca5/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0] /home/abednego/.android/build-cache/b4f22bfcdbb308382e4048ada1a2f8ed4d3a8d1f/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] /home/abednego/.android/build-cache/85bb9ddff5a48293beb31b8bcaf1bc595ebabdf7/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] /home/abednego/.android/build-cache/85b4c7bb0a9f00da9f61fa2d616bcbe00d06157e/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] /home/abednego/.android/build-cache/d47e7af205b13f75026668ed51f7986ca36604e6/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] /home/abednego/.android/build-cache/e882cb3125ba4accaab2a206ec1ebf8c71bf1f10/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] /home/abednego/.android/build-cache/2818b19a4aea3903c997996a0a6cc432756fd9a8/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/abednego/.android/build-cache/38449faa1930cc17760b4814a0504d46763c18ff/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:9:9-48
+	android:allowBackup
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.abednego.myapplication.Splash
+ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-22:20
+	android:label
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:13-62
+	android:configChanges
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:13-74
+	android:theme
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:13-51
+	android:name
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:13-35
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.abednego.myapplication.Interactive
+ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:9-49
+	android:name
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:19-46
+activity#com.example.abednego.myapplication.RegisterUser
+ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:9-59
+	android:name
+		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:19-47
+uses-sdk
+INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:26.0.0] /home/abednego/.android/build-cache/9e19410b384e261c9e5a2c102c16203a465e835e/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:multidex:1.0.1] /home/abednego/.android/build-cache/c7255a379acc4d9b0f5b65e459ef51da09845aa8/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:26.0.0] /home/abednego/.android/build-cache/387de3bd2cc543ca01e12a0ac948772cff96dc40/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] /home/abednego/.android/build-cache/307e94b012e531631020b8611335945ce9fc8d29/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] /home/abednego/.android/build-cache/d94a243bb0791a6ed9e39be2f783436fbee149bb/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/abednego/.android/build-cache/ddb9182b026241f76c944b3bf0ef1543a727fc87/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0] /home/abednego/.android/build-cache/ec950b4d8784d85b067afd9c32dd3ab1d4a5fca5/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0] /home/abednego/.android/build-cache/b4f22bfcdbb308382e4048ada1a2f8ed4d3a8d1f/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0] /home/abednego/.android/build-cache/85bb9ddff5a48293beb31b8bcaf1bc595ebabdf7/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0] /home/abednego/.android/build-cache/85b4c7bb0a9f00da9f61fa2d616bcbe00d06157e/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0] /home/abednego/.android/build-cache/d47e7af205b13f75026668ed51f7986ca36604e6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0] /home/abednego/.android/build-cache/e882cb3125ba4accaab2a206ec1ebf8c71bf1f10/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0] /home/abednego/.android/build-cache/2818b19a4aea3903c997996a0a6cc432756fd9a8/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/abednego/.android/build-cache/38449faa1930cc17760b4814a0504d46763c18ff/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0] /home/abednego/.android/build-cache/9e19410b384e261c9e5a2c102c16203a465e835e/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0] /home/abednego/.android/build-cache/9e19410b384e261c9e5a2c102c16203a465e835e/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.0] /home/abednego/.android/build-cache/387de3bd2cc543ca01e12a0ac948772cff96dc40/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] /home/abednego/.android/build-cache/307e94b012e531631020b8611335945ce9fc8d29/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] /home/abednego/.android/build-cache/d94a243bb0791a6ed9e39be2f783436fbee149bb/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/abednego/.android/build-cache/ddb9182b026241f76c944b3bf0ef1543a727fc87/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.0] /home/abednego/.android/build-cache/ec950b4d8784d85b067afd9c32dd3ab1d4a5fca5/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.0] /home/abednego/.android/build-cache/b4f22bfcdbb308382e4048ada1a2f8ed4d3a8d1f/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] /home/abednego/.android/build-cache/85bb9ddff5a48293beb31b8bcaf1bc595ebabdf7/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] /home/abednego/.android/build-cache/85b4c7bb0a9f00da9f61fa2d616bcbe00d06157e/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] /home/abednego/.android/build-cache/d47e7af205b13f75026668ed51f7986ca36604e6/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] /home/abednego/.android/build-cache/e882cb3125ba4accaab2a206ec1ebf8c71bf1f10/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] /home/abednego/.android/build-cache/2818b19a4aea3903c997996a0a6cc432756fd9a8/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.0] /home/abednego/.android/build-cache/9e19410b384e261c9e5a2c102c16203a465e835e/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.0] /home/abednego/.android/build-cache/9e19410b384e261c9e5a2c102c16203a465e835e/output/AndroidManifest.xml:27:13-51

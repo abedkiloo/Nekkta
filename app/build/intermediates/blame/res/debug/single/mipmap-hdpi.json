@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-hdpi/nekkta_icon.png",
+        "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-hdpi/nekkta_icon.png"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
