@@ -1,4 +1,7 @@
-#Sun Aug 06 00:11:42 EAT 2017
-base.0=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Sun Aug 06 21:14:52 EAT 2017
+base.0=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_68507c5e6f669e6b82cff8b8b3f8979ae7ad7668
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_37ba0a496667f6e62955af0a562859fa2f4401d4/classes.dex
+base.1=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_37ba0a496667f6e62955af0a562859fa2f4401d4
+file.0=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_68507c5e6f669e6b82cff8b8b3f8979ae7ad7668/classes.dex

@@ -192,15 +192,12 @@ public class RegisterUser extends AppCompatActivity {
                         questioner_tv.setText(R.string.age_ask);
                         datePicker.setVisibility(View.VISIBLE);
 
+                        create_calendar();
+
+
                     } else if (question_value.equals(getResources().getString(R.string.age_ask))) {
-
-                        int day = datePicker.getDayOfMonth();
-                        int month = datePicker.getDayOfMonth();
-                        int year = datePicker.getYear();
-
-                        String simpleDateFormat =
-                                SimpleDateFormat.getDateInstance().format(datePicker.getCalendarView().getDate());
-                        typed_response_edit_text.setText(simpleDateFormat);
+                        datePicker.setVisibility(View.GONE);
+                        storage_answer(getResources().getString(R.string.age), answer_value);
 
                     }
                 }
@@ -249,18 +246,30 @@ public class RegisterUser extends AppCompatActivity {
                     btn_done.setTextColor(getResources().getColor(R.color.white));
                 } else {
                     btn_done.setBackground(getResources().getDrawable(R.drawable.custom_text_views_no_fill));
-
                 }
             }
 
             @Override
             public void afterTextChanged(Editable editable) {
                 btn_done.setBackground(getResources().getDrawable(R.drawable.custom_text_views));
-
             }
         });
 
 
+    }
+
+    private void create_calendar() {
+        // Use the current date as the default date in the picker
+        final Calendar calendar = Calendar.getInstance();
+        calendar.setTimeInMillis(System.currentTimeMillis());
+        datePicker.init(calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
+                calendar.get(Calendar.DAY_OF_MONTH), new DatePicker.OnDateChangedListener() {
+                    @Override
+                    public void onDateChanged(DatePicker datePicker, int year, int month, int dayOfMonth) {
+                        Log.d("Date", "Year=" + year + " Month=" + (month + 1) + " day=" + dayOfMonth);
+                        typed_response_edit_text.setText(dayOfMonth + "/" + month + "/" + year);
+                    }
+                });
     }
 
     private boolean verify_input(int typeText, String answer_value) {
@@ -307,6 +316,7 @@ public class RegisterUser extends AppCompatActivity {
         user_responses_hash_map.put(answer_key, user_response);
         Log.e("USER_RESPONSE", user_responses_hash_map.get(answer_key));
 
-
     }
+
+
 }

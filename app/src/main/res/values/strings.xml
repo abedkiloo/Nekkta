@@ -27,6 +27,7 @@
     <string name="email_ask">Please text me your email address</string>
     <string name="email_placeholder">email</string>
     <string name="password_placeholder">password</string>
+    <string name="age">age</string>
     <string name="phone_ask">Have a phone number!</string>
     <string name="phone_number_placeholder">phone_number</string>
     <string name="age_ask">Great, almost done please select your age so that we can begin</string>
