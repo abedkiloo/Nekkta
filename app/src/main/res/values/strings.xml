@@ -6,7 +6,7 @@
     <string name="text_here">Text Here</string>
     <string name="met_before">"Hey i am Nekkta! \nHave we met before?"</string>
 
-    <string name="title_activity_fullscreen">Nekkta Track</string>
+    <string name="title_activity_fullscreen">Nekkta </string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">Nekkta Community</string>
 
@@ -21,9 +21,17 @@
 
     <!--register user-->
     <string name="first_name_ask">What is your first name?</string>
+    <string name="first_name_placeholder">first_name</string>
     <string name="second_name_ask">What is your second name?</string>
+    <string name="second_name_placeholder">second_name</string>
     <string name="email_ask">Please text me your email address</string>
+    <string name="email_placeholder">email</string>
+    <string name="password_placeholder">password</string>
     <string name="phone_ask">Have a phone number!</string>
+    <string name="phone_number_placeholder">phone_number</string>
+    <string name="age_ask">Great, almost done please select your age so that we can begin</string>
+    <string name="email_error">This is not a valid email address</string>
+    <string name="password_error">The password should have one lower case letter and upper case and a number</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

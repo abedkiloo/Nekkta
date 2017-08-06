@@ -1,13 +1,14 @@
 package com.example.abednego.myapplication;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
+import android.app.DatePickerDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.PatternMatcher;
 import android.support.design.widget.TextInputEditText;
 import android.support.v4.content.LocalBroadcastManager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.AppCompatButton;
@@ -16,18 +17,23 @@ import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
+import android.text.InputType;
 import android.text.TextWatcher;
 import android.util.Log;
-import android.view.LayoutInflater;
+import android.util.Patterns;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.Window;
-import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.DatePicker;
+import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.regex.Pattern;
 
 public class RegisterUser extends AppCompatActivity {
 
@@ -40,6 +46,9 @@ public class RegisterUser extends AppCompatActivity {
     AppCompatButton btn_done;
     LinearLayoutCompat reg_main_linear;
     Animation slide_left;
+    HashMap<String, String> user_responses_hash_map;
+    String user_names_from_hash_map;
+    DatePicker datePicker;
 
 
     @Override
@@ -48,6 +57,10 @@ public class RegisterUser extends AppCompatActivity {
         setContentView(R.layout.activity_register_user);
         //remove action bar
         getSupportActionBar().hide();
+
+
+        //intialze empty hash map
+        user_responses_hash_map = new HashMap<>();
 
         //reference linear layout view
         reg_main_linear = findViewById(R.id.register_main_linear);
@@ -65,7 +78,8 @@ public class RegisterUser extends AppCompatActivity {
         //get reference to question text view
         questioner_tv = findViewById(R.id.register_questioner);
 
-
+        //get reference to date picker
+        datePicker = findViewById(R.id.date_picker_dialog);
         //get reference for the done button
         btn_done = findViewById(R.id.done_button);
         //get reference of user edit text for responses
@@ -86,7 +100,7 @@ public class RegisterUser extends AppCompatActivity {
 
 
     private void populateList() {
-        Log.e("DEBUG", "TRUE");
+
         AnswerSet answerSet;
 
         answerSet = new AnswerSet(getApplicationContext().getResources().getString(R.string.no_create_account));
@@ -111,7 +125,6 @@ public class RegisterUser extends AppCompatActivity {
 
         if (user_response.equals(getResources().getString(R.string.no_create_account))) {
             create_account();
-
         } else if (user_response.equals(getResources().getString(R.string.yes_log_in))) {
             login_account();
 
@@ -127,24 +140,71 @@ public class RegisterUser extends AppCompatActivity {
 
     private void create_account() {
         //hide the recyler
-        reg_main_linear.startAnimation(slide_left);
-        slide_left.setAnimationListener(new Animation.AnimationListener() {
+        register_reRecyclerView.setVisibility(View.GONE);
+        questioner_tv.setText(R.string.first_name_ask);
+        typed_response_edit_text.setVisibility(View.VISIBLE);
+        btn_done.setVisibility(View.VISIBLE);
+
+
+        btn_done.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onAnimationStart(Animation animation) {
-                register_reRecyclerView.setVisibility(View.GONE);
-                questioner_tv.setText(R.string.first_name_ask);
-                typed_response_edit_text.setVisibility(View.VISIBLE);
-                btn_done.setVisibility(View.VISIBLE);
+            public void onClick(View view) {
+                String question_value = questioner_tv.getText().toString();
+                final String answer_value = typed_response_edit_text.getText().toString();
+                if (check_input_typed(answer_value)) {
+                    if (question_value.equals(getResources().getString(R.string.first_name_ask))) {
+                        storage_answer(getResources().getString(R.string.first_name_placeholder), answer_value);
+                        reset_button();
+                        questioner_tv.setText(R.string.second_name_ask);
+                    } else if (question_value.equals(getResources().getString(R.string.second_name_ask))) {
 
-            }
+                        storage_answer(getResources().getString(R.string.second_name_placeholder), answer_value);
+                        typed_response_edit_text.setInputType(InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
+                        questioner_tv.setText(R.string.email_ask);
+                        reset_button();
+                    } else if (question_value.equals(getResources().getString(R.string.email_ask))) {
+                        if (verify_input(InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS, answer_value)) {
+                            storage_answer(getResources().getString(R.string.email_placeholder), answer_value);
 
-            @Override
-            public void onAnimationEnd(Animation animation) {
+                            //changing values inserting names from the hash map
+                            user_names_from_hash_map = "Okay " +
+                                    user_responses_hash_map.get(getResources().getString(R.string.first_name_placeholder)) +
+                                    " " +
+                                    user_responses_hash_map.get(getResources().getString(R.string.second_name_placeholder)) +
+                                    ", set up Password. \n Make sure it has at least" +
+                                    " one lower case letter and upper case " +
+                                    "and a number";
 
-            }
+                            questioner_tv.setText(user_names_from_hash_map);
+                            typed_response_edit_text.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+                            reset_button();
+                        }
+                    } else if (question_value.equals(user_names_from_hash_map)) {
+//                        if (verify_input(InputType.TYPE_TEXT_VARIATION_PASSWORD, answer_value)) {
+                        storage_answer(getResources().getString(R.string.password_placeholder), answer_value);
+                        questioner_tv.setText(R.string.phone_ask);
+                        typed_response_edit_text.setInputType(InputType.TYPE_CLASS_PHONE);
+                        reset_button();
+                    } else if (question_value.equals(getResources().getString(R.string.phone_ask))) {
 
-            @Override
-            public void onAnimationRepeat(Animation animation) {
+                        storage_answer(getResources().getString(R.string.phone_number_placeholder), answer_value);
+                        reset_button();
+                        questioner_tv.setText(R.string.age_ask);
+                        datePicker.setVisibility(View.VISIBLE);
+
+                    } else if (question_value.equals(getResources().getString(R.string.age_ask))) {
+
+                        int day = datePicker.getDayOfMonth();
+                        int month = datePicker.getDayOfMonth();
+                        int year = datePicker.getYear();
+
+                        String simpleDateFormat =
+                                SimpleDateFormat.getDateInstance().format(datePicker.getCalendarView().getDate());
+                        typed_response_edit_text.setText(simpleDateFormat);
+
+                    }
+                }
+//                }
 
             }
         });
@@ -175,6 +235,7 @@ public class RegisterUser extends AppCompatActivity {
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 if (charSequence.length() > 0) {
                     btn_done.setBackground(getResources().getDrawable(R.drawable.custom_text_views));
+                    btn_done.setTextColor(getResources().getColor(R.color.white));
                 } else {
                     btn_done.setBackground(getResources().getDrawable(R.drawable.custom_text_views_no_fill));
 
@@ -185,6 +246,7 @@ public class RegisterUser extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 if (charSequence.length() > 0) {
                     btn_done.setBackground(getResources().getDrawable(R.drawable.custom_text_views));
+                    btn_done.setTextColor(getResources().getColor(R.color.white));
                 } else {
                     btn_done.setBackground(getResources().getDrawable(R.drawable.custom_text_views_no_fill));
 
@@ -197,6 +259,53 @@ public class RegisterUser extends AppCompatActivity {
 
             }
         });
+
+
+    }
+
+    private boolean verify_input(int typeText, String answer_value) {
+        boolean bool_value = false;
+        switch (typeText) {
+            case InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS:
+                if (!Patterns.EMAIL_ADDRESS.matcher(answer_value).matches()) {
+                    typed_response_edit_text.setError(getResources().getString(R.string.email_error));
+                    bool_value = false;
+                } else {
+                    bool_value = true;
+                }
+                break;
+            case InputType.TYPE_TEXT_VARIATION_PASSWORD:
+                String regex_password = ("[a-zA-Z]+[A-Z]+[0-9]");
+//                Pattern.compile("[a-zA-Z0-9]*[0-9]*[a-z]");
+                if (!Pattern.compile(answer_value).matcher(regex_password).matches()) {
+                    typed_response_edit_text.setError(getResources().getString(R.string.password_error));
+                    bool_value = false;
+                } else {
+                    bool_value = true;
+                }
+                break;
+        }
+
+        return bool_value;
+    }
+
+    private boolean check_input_typed(String answer_value) {
+        if (answer_value.equals("")) {
+            typed_response_edit_text.setError("Cannot be empty");
+            return false;
+        }
+        return true;
+    }
+
+    private void reset_button() {
+        typed_response_edit_text.setText("");
+        btn_done.setBackground(getResources().getDrawable(R.drawable.custom_text_views_no_fill));
+        btn_done.setTextColor(getResources().getColor(R.color.colorPrimary));
+    }
+
+    public void storage_answer(String answer_key, String user_response) {
+        user_responses_hash_map.put(answer_key, user_response);
+        Log.e("USER_RESPONSE", user_responses_hash_map.get(answer_key));
 
 
     }

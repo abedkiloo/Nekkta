@@ -770,6 +770,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="age_ask">Great, almost done please select your age so that we can begin</string>
     <string name="app_name">Nekkta</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
@@ -779,24 +780,31 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">Nekkta Community</string>
     <string name="email_ask">Please text me your email address</string>
+    <string name="email_error">This is not a valid email address</string>
+    <string name="email_placeholder">email</string>
     <string name="first_name_ask">What is your first name?</string>
+    <string name="first_name_placeholder">first_name</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="meet_again_know_better">Hey again, nice to meet you. I will be \n
     realtime savings manager. but First i would like to know you better.
     </string>
     <string name="met_before">"Hey i am Nekkta! \nHave we met before?"</string>
     <string name="no_create_account">No. Create An Account</string>
+    <string name="password_error">The password should have one lower case letter and upper case and a number</string>
+    <string name="password_placeholder">password</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="phone_ask">Have a phone number!</string>
+    <string name="phone_number_placeholder">phone_number</string>
     <string name="search_menu_title">Search</string>
     <string name="second_name_ask">What is your second name?</string>
+    <string name="second_name_placeholder">second_name</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="text_here">Text Here</string>
-    <string name="title_activity_fullscreen">Nekkta Track</string>
+    <string name="title_activity_fullscreen">Nekkta </string>
     <string name="user_selection">User_selction</string>
     <string name="yes_log_in">Yes. Log In</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -809,7 +817,7 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

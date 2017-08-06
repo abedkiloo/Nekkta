@@ -8,20 +8,8 @@
         "source": "/home/abednego/.android/build-cache/9e19410b384e261c9e5a2c102c16203a465e835e/output/res/drawable-v21/design_password_eye.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/lb_card_foreground.xml",
-        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/drawable-v21/lb_card_foreground.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/lb_control_button_secondary.xml",
-        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/drawable-v21/lb_control_button_secondary.xml"
-    },
-    {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
         "source": "/home/abednego/.android/build-cache/2818b19a4aea3903c997996a0a6cc432756fd9a8/output/res/drawable-v21/notification_action_background.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/lb_control_button_primary.xml",
-        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/drawable-v21/lb_control_button_primary.xml"
     },
     {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
@@ -30,14 +18,6 @@
     {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/home/abednego/.android/build-cache/387de3bd2cc543ca01e12a0ac948772cff96dc40/output/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/lb_selectable_item_rounded_rect.xml",
-        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/drawable-v21/lb_selectable_item_rounded_rect.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/lb_action_bg.xml",
-        "source": "/home/abednego/.android/build-cache/a979f3afc7e99896d7318961226376a2fec80c72/output/res/drawable-v21/lb_action_bg.xml"
     },
     {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
