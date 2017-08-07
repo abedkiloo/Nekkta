@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.abednego.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/nekkta_icon"
@@ -11,8 +13,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Splash"
-            android:label="@string/title_activity_fullscreen"
-           >
+            android:label="@string/title_activity_fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

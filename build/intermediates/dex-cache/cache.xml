@@ -7,8 +7,17 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="a016bd0788467d763ef6f81a04eddd967c215fff">
+        sha1="71ab3bfdd05d58d175c65adc2809a0c339baa839">
         <dex dex="/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_37ba0a496667f6e62955af0a562859fa2f4401d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abednego/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_76e74ceb17cdf75646b4a86962ace702899194bb/classes.dex" />
     </item>
     <item
         is-multidex="true"

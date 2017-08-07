@@ -1,14 +1,11 @@
 package com.example.abednego.myapplication;
 
-import android.app.DatePickerDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.os.PatternMatcher;
 import android.support.design.widget.TextInputEditText;
 import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.AppCompatButton;
@@ -25,14 +22,20 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.DatePicker;
-import android.widget.Toast;
 
-import java.text.SimpleDateFormat;
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Pattern;
 
 public class RegisterUser extends AppCompatActivity {
@@ -49,6 +52,8 @@ public class RegisterUser extends AppCompatActivity {
     HashMap<String, String> user_responses_hash_map;
     String user_names_from_hash_map;
     DatePicker datePicker;
+    String URL_save_user = "http://abedkiloo.com/nekkta/register_nekkta_users";
+    String URL_get_users = "http://abedkiloo.com/nekkta/fetch_all_users";
 
 
     @Override
@@ -153,18 +158,18 @@ public class RegisterUser extends AppCompatActivity {
                 final String answer_value = typed_response_edit_text.getText().toString();
                 if (check_input_typed(answer_value)) {
                     if (question_value.equals(getResources().getString(R.string.first_name_ask))) {
-                        storage_answer(getResources().getString(R.string.first_name_placeholder), answer_value);
+                        has_map_storage(getResources().getString(R.string.first_name_placeholder), answer_value);
                         reset_button();
                         questioner_tv.setText(R.string.second_name_ask);
                     } else if (question_value.equals(getResources().getString(R.string.second_name_ask))) {
 
-                        storage_answer(getResources().getString(R.string.second_name_placeholder), answer_value);
+                        has_map_storage(getResources().getString(R.string.second_name_placeholder), answer_value);
                         typed_response_edit_text.setInputType(InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
                         questioner_tv.setText(R.string.email_ask);
                         reset_button();
                     } else if (question_value.equals(getResources().getString(R.string.email_ask))) {
                         if (verify_input(InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS, answer_value)) {
-                            storage_answer(getResources().getString(R.string.email_placeholder), answer_value);
+                            has_map_storage(getResources().getString(R.string.email_placeholder), answer_value);
 
                             //changing values inserting names from the hash map
                             user_names_from_hash_map = "Okay " +
@@ -181,13 +186,13 @@ public class RegisterUser extends AppCompatActivity {
                         }
                     } else if (question_value.equals(user_names_from_hash_map)) {
 //                        if (verify_input(InputType.TYPE_TEXT_VARIATION_PASSWORD, answer_value)) {
-                        storage_answer(getResources().getString(R.string.password_placeholder), answer_value);
+                        has_map_storage(getResources().getString(R.string.password_placeholder), answer_value);
                         questioner_tv.setText(R.string.phone_ask);
                         typed_response_edit_text.setInputType(InputType.TYPE_CLASS_PHONE);
                         reset_button();
                     } else if (question_value.equals(getResources().getString(R.string.phone_ask))) {
 
-                        storage_answer(getResources().getString(R.string.phone_number_placeholder), answer_value);
+                        has_map_storage(getResources().getString(R.string.phone_number_placeholder), answer_value);
                         reset_button();
                         questioner_tv.setText(R.string.age_ask);
                         datePicker.setVisibility(View.VISIBLE);
@@ -197,8 +202,8 @@ public class RegisterUser extends AppCompatActivity {
 
                     } else if (question_value.equals(getResources().getString(R.string.age_ask))) {
                         datePicker.setVisibility(View.GONE);
-                        storage_answer(getResources().getString(R.string.age), answer_value);
-
+                        has_map_storage(getResources().getString(R.string.user_year_of_birth), answer_value);
+                        online_db_interaction(getResources().getString(R.string.save_user));
                     }
                 }
 //                }
@@ -312,9 +317,64 @@ public class RegisterUser extends AppCompatActivity {
         btn_done.setTextColor(getResources().getColor(R.color.colorPrimary));
     }
 
-    public void storage_answer(String answer_key, String user_response) {
+    public void has_map_storage(String answer_key, String user_response) {
         user_responses_hash_map.put(answer_key, user_response);
         Log.e("USER_RESPONSE", user_responses_hash_map.get(answer_key));
+
+    }
+
+    /**
+     * used to interact with the online db
+     * either send data or pull data
+     *
+     * @param online_request_type
+     */
+    public void online_db_interaction(String online_request_type) {
+//
+//        final ProgressDialog progressDialog = new ProgressDialog(getApplicationContext());
+//        progressDialog.setTitle("Please Wait");
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, URL_get_users, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                Log.e("RESULT FETCH", response);
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("RESULT FETCH", String.valueOf(error));
+            }
+        });
+        RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
+        requestQueue.add(stringRequest);
+        if (online_request_type.equals(getResources().getString(R.string.save_user))) {
+
+            StringRequest save_user_string_req = new StringRequest(Request.Method.POST, URL_save_user, new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    Log.e("RESULT REGISTER", response);
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    Log.e("RESULT REGISTER", String.valueOf(error));
+                }
+            }
+            ) {
+                @Override
+                protected Map<String, String> getParams() throws AuthFailureError {
+                    Map<String, String> params = new HashMap<>();
+                    for (Map.Entry<String, String> entry : user_responses_hash_map.entrySet()) {
+//            Toast.makeText(this, "KEY"+entry.getKey()+"  DATA"+entry.getValue(), Toast.LENGTH_SHORT).show();
+                        Log.e("VALUES", "KEY=>" + entry.getKey() + "  DATA=>" + entry.getValue());
+                        params.put(entry.getKey(), entry.getValue());
+                    }
+                    return params;
+                }
+            };
+            RequestQueue requestQueues = Volley.newRequestQueue(getApplicationContext());
+            requestQueues.add(save_user_string_req);
+        }
+
 
     }
 
