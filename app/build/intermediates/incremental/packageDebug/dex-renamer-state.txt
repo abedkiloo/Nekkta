@@ -1,4 +1,4 @@
-#Mon Aug 07 11:02:00 EAT 2017
+#Mon Aug 14 00:22:39 EAT 2017
 base.0=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_68507c5e6f669e6b82cff8b8b3f8979ae7ad7668
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Aug 06 21:14:51 EAT 2017
+#Mon Aug 14 00:22:14 EAT 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/design_ic_visibility.png
@@ -39,7 +39,7 @@
 186.set=ANDROID_RESOURCE
 115.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/design_layout_tab_icon.xml
 49.set=ANDROID_RESOURCE
-92.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/tooltip_frame_dark.xml
+92.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_spinner.xml
 244.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_icon_group.xml
 167.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_hint_foreground_material_light.xml
 198.base=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_
@@ -111,7 +111,7 @@
 255.set=ANDROID_RESOURCE
 196.set=ANDROID_RESOURCE
 116.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_internal_bg.xml
-93.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_spinner.xml
+93.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/tooltip_frame_dark.xml
 147.base=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_
 59.set=ANDROID_RESOURCE
 245.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_activity_chooser_view.xml
@@ -465,7 +465,7 @@
 271.base=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_
 0.base=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_
 250.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_default_mtrl_shape.xml
-173.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media_custom.xml
+173.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_btn_colored_text_material.xml
 107.set=ANDROID_RESOURCE
 153.set=ANDROID_RESOURCE
 259.set=ANDROID_RESOURCE
@@ -539,7 +539,7 @@ count=275
 13.set=ANDROID_RESOURCE
 1.base=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_
 251.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_toolbar.xml
-174.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_btn_colored_text_material.xml
+174.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media_custom.xml
 117.set=ANDROID_RESOURCE
 1.set=ANDROID_RESOURCE
 163.set=ANDROID_RESOURCE
@@ -753,7 +753,7 @@ count=275
 177.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_dark.xml
 100.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-v23/abc_control_background_material.xml
 147.set=ANDROID_RESOURCE
-152.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media.xml
+152.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/anim-v21/design_bottom_sheet_slide_out.xml
 200.set=ANDROID_RESOURCE
 108.set=ANDROID_RESOURCE
 50.set=ANDROID_RESOURCE
@@ -824,5 +824,5 @@ count=275
 178.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
 101.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_light.xml
 230.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
-153.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/anim-v21/design_bottom_sheet_slide_out.xml
+153.file=/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media.xml
 157.set=ANDROID_RESOURCE

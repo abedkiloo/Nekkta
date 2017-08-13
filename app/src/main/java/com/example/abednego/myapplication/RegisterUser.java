@@ -4,11 +4,14 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.drawable.Drawable;
+import android.media.Image;
 import android.support.design.widget.TextInputEditText;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.AppCompatButton;
+import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.LinearLayoutManager;
@@ -40,6 +43,8 @@ import java.util.regex.Pattern;
 
 public class RegisterUser extends AppCompatActivity {
 
+
+    AppCompatImageView community_welcome;
     RecyclerView register_reRecyclerView;
     LinearLayoutManager linearLayoutManager;
     CustomAdapter customAdapter;
@@ -68,7 +73,7 @@ public class RegisterUser extends AppCompatActivity {
         user_responses_hash_map = new HashMap<>();
 
         //reference linear layout view
-        reg_main_linear = findViewById(R.id.register_main_linear);
+        reg_main_linear = (LinearLayoutCompat) findViewById(R.id.register_main_linear);
         //local braod cast receiver for user clicks
         LocalBroadcastManager.getInstance(getApplicationContext()).
                 registerReceiver(user_response_receiver,
@@ -77,18 +82,20 @@ public class RegisterUser extends AppCompatActivity {
         slide_left = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_left);
 
         //get reference of recycler view
-        register_reRecyclerView = findViewById(R.id.recy_answers);
+        register_reRecyclerView = (RecyclerView) findViewById(R.id.recy_answers);
         register_reRecyclerView.setHasFixedSize(true);
 
         //get reference to question text view
-        questioner_tv = findViewById(R.id.register_questioner);
+        questioner_tv = (AppCompatTextView) findViewById(R.id.register_questioner);
+
+
 
         //get reference to date picker
-        datePicker = findViewById(R.id.date_picker_dialog);
+        datePicker = (DatePicker) findViewById(R.id.date_picker_dialog);
         //get reference for the done button
-        btn_done = findViewById(R.id.done_button);
+        btn_done = (AppCompatButton) findViewById(R.id.done_button);
         //get reference of user edit text for responses
-        typed_response_edit_text = findViewById(R.id.typed_response);
+        typed_response_edit_text = (TextInputEditText) findViewById(R.id.typed_response);
 
         //layout manager
         linearLayoutManager = new LinearLayoutManager(getApplicationContext());
@@ -149,7 +156,6 @@ public class RegisterUser extends AppCompatActivity {
         questioner_tv.setText(R.string.first_name_ask);
         typed_response_edit_text.setVisibility(View.VISIBLE);
         btn_done.setVisibility(View.VISIBLE);
-
 
         btn_done.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -330,6 +336,9 @@ public class RegisterUser extends AppCompatActivity {
      * @param online_request_type
      */
     public void online_db_interaction(String online_request_type) {
+
+        Animation community_animation=AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slide_right);
+
 //
 //        final ProgressDialog progressDialog = new ProgressDialog(getApplicationContext());
 //        progressDialog.setTitle("Please Wait");

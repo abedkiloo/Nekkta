@@ -33,7 +33,7 @@
 
         <meta-data
             android:name="android.support.VERSION"
-            android:value="26.0.0" />
+            android:value="26.0.1" />
     </application>
 
 </manifest>

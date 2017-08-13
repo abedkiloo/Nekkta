@@ -18,7 +18,7 @@ public class Splash extends AppCompatActivity {
         //remove action bar
         getSupportActionBar().hide();
 
-        splash_image = findViewById(R.id.launch_splash_icon);
+        splash_image = (AppCompatImageView) findViewById(R.id.launch_splash_icon);
         /**
          *   load all animation references
          */

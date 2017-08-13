@@ -28,7 +28,7 @@ public class Interactive extends AppCompatActivity {
         setContentView(R.layout.activity_interactive);
 
         //initiate view pager and pageradapter
-        viewPager = findViewById(R.id.pager);
+        viewPager = (ViewPager) findViewById(R.id.pager);
         pagerAdapter = new SlidePagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(new SlidePagerAdapter(getSupportFragmentManager()));
 
