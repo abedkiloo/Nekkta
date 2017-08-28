@@ -11,6 +11,7 @@
     <string name="dummy_content">Nekkta Community</string>
 
 
+
     <string name="yes_log_in">Yes. Log In</string>
     <string name="no_create_account">No. Create An Account</string>
 
@@ -20,6 +21,21 @@
     </string>
 
     <!--register user-->
+    <string name="fb_sign_in">Sign in with Facebook</string>
+    <string name="fb_sign_up">Sign Up with Facebook</string>
+    <string name="or">or</string>
+    <string name="agree_terms">Agree to the <u><b>terms and conditions</b></u></string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="not_a_member">Not a member ?</string>
+    <string name="have_an_account">Have an Account ?</string>
+    <string name="sign_up_here"><u>Sign Up Here</u></string>
+    <string name="sign_in_here"><u>Sign In Here</u></string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="user_number">User Name</string>
+
+
     <string name="first_name_ask">What is your first name?</string>
     <string name="first_name_placeholder">first_name</string>
     <string name="second_name_ask">What is your second name?</string>

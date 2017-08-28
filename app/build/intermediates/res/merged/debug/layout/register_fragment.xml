@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.abednego.myapplication.Register">
+    tools:context="com.example.abednego.myapplication.activities.Register">
 
     <android.support.v7.widget.LinearLayoutCompat
         android:layout_width="match_parent"

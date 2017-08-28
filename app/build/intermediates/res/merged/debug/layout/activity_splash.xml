@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
-    tools:context="com.example.abednego.myapplication.Splash">
+    tools:context="com.example.abednego.myapplication.activities.Splash">
 
 
     <android.support.v7.widget.AppCompatImageView

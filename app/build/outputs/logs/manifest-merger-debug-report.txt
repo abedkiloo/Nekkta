@@ -1,114 +1,125 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:3:5-49
-		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
-		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
-		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
-		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:5-27:19
-MERGED from [com.android.support:design:26.0.1] /home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.1] /home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/abednego/.android/build-cache/babd6487c428640b2218d910074888386a2e714f/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/abednego/.android/build-cache/9df3d10aaae24238148355a94967d7c440fa9fa3/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /home/abednego/.android/build-cache/b5b36f9940b87f24224b2fd3ba36db2843d73ea9/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.0.1] /home/abednego/.android/build-cache/4dadc4ba6821558c2dc964d591493fd34aca0a5d/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.0.1] /home/abednego/.android/build-cache/2523345264b41588a33237a242d17312cdd13572/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.1] /home/abednego/.android/build-cache/1fd208993ebdd90374d87a5f354cf40bac9193b8/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.1] /home/abednego/.android/build-cache/7032342fdd60698b24b20e524fc961758ad11a5b/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.1] /home/abednego/.android/build-cache/6b5c3e58ab46c9862657418b11283dee7197a20b/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.1] /home/abednego/.android/build-cache/fb89aae6598a5172069bef6d050e168e131ce633/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.1] /home/abednego/.android/build-cache/250f74c655c2e47bcb4fe656782fc8296a3003f3/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/abednego/.android/build-cache/38449faa1930cc17760b4814a0504d46763c18ff/output/AndroidManifest.xml:9:5-20
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:7:5-29:19
+MERGED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] /home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/24da647c1bf808c85bcbf2eb9f5498336240f138/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/58387127cc14c7e09e43edf0f07fe44efefc6eb6/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] /home/abedkiloo/.android/build-cache/64aa36c94632451f0a678837540ef4a648d3d963/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.1] /home/abedkiloo/.android/build-cache/973268cf5550dab5c9e2cb4b36049780d00341a1/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.1] /home/abedkiloo/.android/build-cache/8a3e0eb5b04b0c05bb8afca07ad009ee6afe7130/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] /home/abedkiloo/.android/build-cache/5cbc997400f265e13696c4fe8ea15eae138f73f1/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] /home/abedkiloo/.android/build-cache/2d056bbf61ae6b012d48ace15f8dd53ce9aac42c/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] /home/abedkiloo/.android/build-cache/3f75fa61af16dc8ccd1ebfaca9131ae53a646bad/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] /home/abedkiloo/.android/build-cache/b689784d3d29a02879935e3203a5a791994252ee/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] /home/abedkiloo/.android/build-cache/22ec8c8ec13393f304ee57bb565154885db46158/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.0.1] /home/abedkiloo/.android/build-cache/e6d14d38dc576986116874d3060b897491e69fb3/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/abedkiloo/.android/build-cache/5408969ee54d65db8052ead217170dc10af0e844/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:12:9-35
 	android:roundIcon
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-48
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:11:9-48
 	android:allowBackup
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:9-40
-activity#com.example.abednego.myapplication.Splash
-ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:9-22:20
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.abednego.myapplication.activities.Splash
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:14:9-22:20
 	android:label
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:13-62
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:16:13-62
 	android:name
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:13-35
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:15:13-46
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:27-74
-activity#com.example.abednego.myapplication.Interactive
-ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:9-49
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.abednego.myapplication.activities.Interactive
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:23:9-60
 	android:name
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:19-46
-activity#com.example.abednego.myapplication.RegisterUser
-ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:9-26:20
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:23:19-57
+activity#com.example.abednego.myapplication.activities.RegisterUser
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:24:9-60
 	android:name
-		ADDED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:19-47
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:24:19-58
+activity#com.example.abednego.myapplication.activities.SignIn
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:25:9-54
+	android:name
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:25:19-52
+activity#com.example.abednego.myapplication.activities.SignUp
+ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:26:9-28:20
+	android:name
+		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:26:19-52
 uses-sdk
-INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:26.0.1] /home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.0.1] /home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/abednego/.android/build-cache/babd6487c428640b2218d910074888386a2e714f/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/abednego/.android/build-cache/9df3d10aaae24238148355a94967d7c440fa9fa3/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /home/abednego/.android/build-cache/b5b36f9940b87f24224b2fd3ba36db2843d73ea9/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.1] /home/abednego/.android/build-cache/4dadc4ba6821558c2dc964d591493fd34aca0a5d/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.0.1] /home/abednego/.android/build-cache/2523345264b41588a33237a242d17312cdd13572/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.1] /home/abednego/.android/build-cache/1fd208993ebdd90374d87a5f354cf40bac9193b8/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.1] /home/abednego/.android/build-cache/7032342fdd60698b24b20e524fc961758ad11a5b/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.1] /home/abednego/.android/build-cache/6b5c3e58ab46c9862657418b11283dee7197a20b/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.1] /home/abednego/.android/build-cache/fb89aae6598a5172069bef6d050e168e131ce633/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.1] /home/abednego/.android/build-cache/250f74c655c2e47bcb4fe656782fc8296a3003f3/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/abednego/.android/build-cache/38449faa1930cc17760b4814a0504d46763c18ff/output/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.1] /home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/24da647c1bf808c85bcbf2eb9f5498336240f138/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/58387127cc14c7e09e43edf0f07fe44efefc6eb6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.1] /home/abedkiloo/.android/build-cache/64aa36c94632451f0a678837540ef4a648d3d963/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.1] /home/abedkiloo/.android/build-cache/973268cf5550dab5c9e2cb4b36049780d00341a1/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.1] /home/abedkiloo/.android/build-cache/8a3e0eb5b04b0c05bb8afca07ad009ee6afe7130/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.1] /home/abedkiloo/.android/build-cache/5cbc997400f265e13696c4fe8ea15eae138f73f1/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.1] /home/abedkiloo/.android/build-cache/2d056bbf61ae6b012d48ace15f8dd53ce9aac42c/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.1] /home/abedkiloo/.android/build-cache/3f75fa61af16dc8ccd1ebfaca9131ae53a646bad/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.1] /home/abedkiloo/.android/build-cache/b689784d3d29a02879935e3203a5a791994252ee/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.1] /home/abedkiloo/.android/build-cache/22ec8c8ec13393f304ee57bb565154885db46158/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:26.0.1] /home/abedkiloo/.android/build-cache/e6d14d38dc576986116874d3060b897491e69fb3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/abedkiloo/.android/build-cache/5408969ee54d65db8052ead217170dc10af0e844/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.0.1] /home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
-		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
-		INJECTED from /home/abednego/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.0.1] /home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.0.1] /home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/abednego/.android/build-cache/babd6487c428640b2218d910074888386a2e714f/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/abednego/.android/build-cache/9df3d10aaae24238148355a94967d7c440fa9fa3/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /home/abednego/.android/build-cache/b5b36f9940b87f24224b2fd3ba36db2843d73ea9/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.0.1] /home/abednego/.android/build-cache/4dadc4ba6821558c2dc964d591493fd34aca0a5d/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.0.1] /home/abednego/.android/build-cache/2523345264b41588a33237a242d17312cdd13572/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.1] /home/abednego/.android/build-cache/1fd208993ebdd90374d87a5f354cf40bac9193b8/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.1] /home/abednego/.android/build-cache/7032342fdd60698b24b20e524fc961758ad11a5b/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.1] /home/abednego/.android/build-cache/6b5c3e58ab46c9862657418b11283dee7197a20b/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.1] /home/abednego/.android/build-cache/fb89aae6598a5172069bef6d050e168e131ce633/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.1] /home/abednego/.android/build-cache/250f74c655c2e47bcb4fe656782fc8296a3003f3/output/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] /home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/24da647c1bf808c85bcbf2eb9f5498336240f138/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/58387127cc14c7e09e43edf0f07fe44efefc6eb6/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] /home/abedkiloo/.android/build-cache/64aa36c94632451f0a678837540ef4a648d3d963/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.1] /home/abedkiloo/.android/build-cache/973268cf5550dab5c9e2cb4b36049780d00341a1/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.1] /home/abedkiloo/.android/build-cache/8a3e0eb5b04b0c05bb8afca07ad009ee6afe7130/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] /home/abedkiloo/.android/build-cache/5cbc997400f265e13696c4fe8ea15eae138f73f1/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] /home/abedkiloo/.android/build-cache/2d056bbf61ae6b012d48ace15f8dd53ce9aac42c/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] /home/abedkiloo/.android/build-cache/3f75fa61af16dc8ccd1ebfaca9131ae53a646bad/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] /home/abedkiloo/.android/build-cache/b689784d3d29a02879935e3203a5a791994252ee/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] /home/abedkiloo/.android/build-cache/22ec8c8ec13393f304ee57bb565154885db46158/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.0.1] /home/abedkiloo/.android/build-cache/e6d14d38dc576986116874d3060b897491e69fb3/output/AndroidManifest.xml:23:9-25:38
 	android:value
-		ADDED from [com.android.support:design:26.0.1] /home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.0.1] /home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:27:13-51

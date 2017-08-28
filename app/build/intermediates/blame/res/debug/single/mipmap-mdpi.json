@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-mdpi/nekkta_icon.png",
         "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-mdpi/nekkta_icon.png"
     },
@@ -8,7 +12,15 @@
         "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
         "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/mipmap-mdpi/nekkta_icon.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/mipmap-mdpi/nekkta_icon.png"
     }
 ]

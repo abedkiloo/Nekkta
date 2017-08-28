@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Splash"
+            android:name=".activities.Splash"
             android:label="@string/title_activity_fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,8 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Interactive" />
-        <activity android:name=".RegisterUser">
+        <activity android:name=".activities.Interactive" />
+        <activity android:name=".activities.RegisterUser"/>
+        <activity android:name=".activities.SignIn"/>
+        <activity android:name=".activities.SignUp">
 
         </activity>
     </application>

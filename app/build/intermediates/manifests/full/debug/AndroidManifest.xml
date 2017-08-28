@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.abednego.myapplication.Splash"
+            android:name="com.example.abednego.myapplication.activities.Splash"
             android:label="@string/title_activity_fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,8 +27,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.abednego.myapplication.Interactive" />
-        <activity android:name="com.example.abednego.myapplication.RegisterUser" >
+        <activity android:name="com.example.abednego.myapplication.activities.Interactive" />
+        <activity android:name="com.example.abednego.myapplication.activities.RegisterUser" />
+        <activity android:name="com.example.abednego.myapplication.activities.SignIn" />
+        <activity android:name="com.example.abednego.myapplication.activities.SignUp" >
         </activity>
 
         <meta-data

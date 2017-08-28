@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi/password_drawable.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/password_drawable.png"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi/person_drawable.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/person_drawable.png"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi/fb_drawable.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/fb_drawable.png"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi/email_drawable.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/email_drawable.png"
+    }
+]
