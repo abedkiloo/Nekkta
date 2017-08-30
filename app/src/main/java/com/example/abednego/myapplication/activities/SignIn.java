@@ -34,4 +34,9 @@ AppCompatTextView sign_up_here;
         sign_up_here= (AppCompatTextView) findViewById(R.id.text_view_sign_up_here);
 
     }
+
+    public void sign_in(View view) {
+        startActivity(new Intent(getApplicationContext(),Dashboard.class));
+
+    }
 }

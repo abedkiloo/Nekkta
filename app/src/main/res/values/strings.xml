@@ -11,7 +11,6 @@
     <string name="dummy_content">Nekkta Community</string>
 
 
-
     <string name="yes_log_in">Yes. Log In</string>
     <string name="no_create_account">No. Create An Account</string>
 
@@ -31,6 +30,7 @@
     <string name="sign_up_here"><u>Sign Up Here</u></string>
     <string name="sign_in_here"><u>Sign In Here</u></string>
     <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
     <string name="email">Email</string>
     <string name="phone_number">Phone Number</string>
     <string name="user_number">User Name</string>
@@ -54,6 +54,21 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
+    <!--feeds interactions-->
+    <string name="comment">Comment</string>
+    <string name="like">Like</string>
+    <string name="share">Share</string>
+    <string name="archive">Archive</string>
+
+
     <!-- online interaction strings-->
     <string name="save_user">save_user</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_bucket">Buckets</string>
+    <string name="title_community">Community</string>
+    <string name="title_account">Account</string>
+
+
+
+    <string name="nav_example1">Section with Header</string>
 </resources>

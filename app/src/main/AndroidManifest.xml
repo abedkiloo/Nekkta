@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/nekkta_icon"
@@ -14,17 +15,22 @@
         <activity
             android:name=".activities.Splash"
             android:label="@string/title_activity_fullscreen">
+
+        </activity>
+        <activity android:name=".activities.Interactive" />
+        <activity android:name=".activities.RegisterUser" />
+        <activity android:name=".activities.SignIn" />
+        <activity android:name=".activities.SignUp" />
+        <activity android:name=".activities.Feeds" />
+        <activity
+            android:theme="@style/WhiteTheme"
+            android:name=".activities.Dashboard"
+            android:label="@string/title_activity_dashboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".activities.Interactive" />
-        <activity android:name=".activities.RegisterUser"/>
-        <activity android:name=".activities.SignIn"/>
-        <activity android:name=".activities.SignUp">
-
         </activity>
     </application>
 

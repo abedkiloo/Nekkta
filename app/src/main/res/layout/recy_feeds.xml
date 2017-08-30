@@ -30,10 +30,7 @@
                         android:layout_height="@dimen/sp_48"
                         android:layout_weight="0.2">
 
-                        <android.support.v7.widget.AppCompatImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:src="@drawable/fb_drawable" />
+
                     </RelativeLayout>
 
                     <LinearLayout
@@ -98,9 +95,29 @@
                    android:weightSum="1">
                    <android.support.v7.widget.AppCompatTextView
                        android:layout_width="0dp"
+                       android:layout_weight="0.25"
+                       android:layout_height="wrap_content"
+                       android:drawableLeft="@drawable/not_liked_drawable"
+                       android:text="@string/like"/>
+                   <android.support.v7.widget.AppCompatTextView
+                       android:layout_width="0dp"
+                       android:layout_weight="0.25"
                        android:layout_height="wrap_content"
                        android:drawableLeft="@drawable/comment_drawable"
-                       android:text="Cmmment"/>
+                       android:text="@string/comment"/>
+                   <android.support.v7.widget.AppCompatTextView
+                       android:layout_width="0dp"
+                       android:layout_weight="0.25"
+                       android:layout_height="wrap_content"
+                       android:drawableLeft="@drawable/archive_drawable"
+                       android:text="@string/archive"/>
+
+                   <android.support.v7.widget.AppCompatTextView
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="0.25"
+                       android:drawableLeft="@drawable/share_drawable"
+                       android:text="@string/share" />
                </LinearLayout>
             </RelativeLayout>
         </RelativeLayout>

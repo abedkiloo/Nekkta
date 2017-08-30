@@ -6,13 +6,5 @@
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
         "source": "/home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     }
 ]

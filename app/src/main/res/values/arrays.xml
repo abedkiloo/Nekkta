@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>My Buckets Kristeen Coderre</item>
+        <item>My Buckets Libby Leslie</item>
+        <item>Group Buckets Lakesha Sewell</item>
+        <item>Group Buckets Hunter Kelsch</item>
+        <item>Trending Venessa Brunson</item>
+        <item>Trending Guillermo Abila</item>
+        <item>Trending Kenna Boles</item>
+
+
+    </string-array>
+</resources>

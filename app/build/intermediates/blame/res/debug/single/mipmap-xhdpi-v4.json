@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/pic1.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/mipmap-xhdpi/pic1.png"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/nekkta_icon.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/mipmap-xhdpi/nekkta_icon.png"
+    }
+]

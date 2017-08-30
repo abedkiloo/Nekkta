@@ -1,43 +1,19 @@
 [
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/res/drawable-v21/design_password_eye.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/home/abednego/.android/build-cache/250f74c655c2e47bcb4fe656782fc8296a3003f3/output/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/res/drawable-v21/avd_hide_password.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
         "source": "/home/abedkiloo/.android/build-cache/22ec8c8ec13393f304ee57bb565154885db46158/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
-        "source": "/home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/res/drawable-v21/avd_show_password.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
@@ -52,15 +28,7 @@
         "source": "/home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/res/drawable-v21/avd_hide_password.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
         "source": "/home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/res/drawable-v21/design_password_eye.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]

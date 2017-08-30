@@ -1,39 +1,27 @@
 [
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/abc_slide_out_top.xml"
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/abc_fade_in.xml"
     },
     {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/anim/fade_out.xml"
+    },
+    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/res/anim/design_snackbar_out.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/tooltip_exit.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/rotate.xml",
         "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/anim/rotate.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
-        "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/anim/fade_out.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
@@ -48,10 +36,6 @@
         "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/anim/slide_left.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/abc_popup_enter.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/abc_slide_in_bottom.xml"
     },
@@ -60,20 +44,16 @@
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/res/anim/design_bottom_sheet_slide_out.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
         "source": "/home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/abc_slide_in_top.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
         "source": "/home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
+        "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/tooltip_exit.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/slide_right.xml",
@@ -84,6 +64,10 @@
         "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/anim/fade_in.xml"
     },
     {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/tooltip_enter.xml"
     },
@@ -92,76 +76,8 @@
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/anim/fade_out.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/res/anim/design_snackbar_in.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/home/abednego/.android/build-cache/0862fa11787da1db0fb9ea6198b9d4f3e7081110/output/res/anim/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
-        "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/anim/fade_in.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/anim/tooltip_enter.xml"
-    },
-    {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
-        "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/tooltip_exit.xml"
-    },
-    {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/res/anim/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/slide_left.xml",
-        "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/anim/slide_left.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/slide_right.xml",
-        "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/anim/slide_right.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim/rotate.xml",
-        "source": "/home/abednego/AndroidStudioProjects/MyApplication/app/src/main/res/anim/rotate.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",

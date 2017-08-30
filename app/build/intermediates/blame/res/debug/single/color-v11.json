@@ -6,13 +6,5 @@
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "/home/abednego/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/abednego/.android/build-cache/da8559222de1754fae74cd123324f28395085c64/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }
 ]

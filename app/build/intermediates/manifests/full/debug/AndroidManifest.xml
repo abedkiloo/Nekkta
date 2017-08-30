@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="14"
         android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -21,16 +21,21 @@
         <activity
             android:name="com.example.abednego.myapplication.activities.Splash"
             android:label="@string/title_activity_fullscreen" >
+        </activity>
+        <activity android:name="com.example.abednego.myapplication.activities.Interactive" />
+        <activity android:name="com.example.abednego.myapplication.activities.RegisterUser" />
+        <activity android:name="com.example.abednego.myapplication.activities.SignIn" />
+        <activity android:name="com.example.abednego.myapplication.activities.SignUp" />
+        <activity android:name="com.example.abednego.myapplication.activities.Feeds" />
+        <activity
+            android:name="com.example.abednego.myapplication.activities.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/WhiteTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name="com.example.abednego.myapplication.activities.Interactive" />
-        <activity android:name="com.example.abednego.myapplication.activities.RegisterUser" />
-        <activity android:name="com.example.abednego.myapplication.activities.SignIn" />
-        <activity android:name="com.example.abednego.myapplication.activities.SignUp" >
         </activity>
 
         <meta-data

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatTextView;
+import android.util.Log;
 import android.view.View;
 
 import com.example.abednego.myapplication.R;
@@ -24,6 +25,7 @@ public class SignUp extends AppCompatActivity {
         sign_in_here.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 startActivity(new Intent(SignUp.this,SignIn.class));
             }
         });

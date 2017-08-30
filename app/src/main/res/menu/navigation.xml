@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_bucket"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_bucket" />
+
+    <item
+        android:id="@+id/navigation_community"
+        android:icon="@drawable/community_drawable"
+        android:title="@string/title_community" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/account_drawable"
+        android:title="@string/title_account" />
+
+</menu>
