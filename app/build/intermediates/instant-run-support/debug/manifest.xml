@@ -21,11 +21,6 @@
         <activity
             android:name="com.example.abednego.myapplication.activities.Splash"
             android:label="@string/title_activity_fullscreen" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="com.example.abednego.myapplication.activities.Interactive" />
         <activity android:name="com.example.abednego.myapplication.activities.RegisterUser" />
@@ -36,11 +31,16 @@
             android:name="com.example.abednego.myapplication.activities.Dashboard"
             android:label="@string/title_activity_dashboard"
             android:theme="@style/WhiteTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <meta-data
             android:name="android.support.VERSION"
-            android:value="26.0.1" />
+            android:value="26.0.2" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

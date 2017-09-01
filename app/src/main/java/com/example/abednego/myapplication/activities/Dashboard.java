@@ -16,7 +16,7 @@ import com.example.abednego.myapplication.R;
 
 public class Dashboard extends AppCompatActivity {
 
-    private TextView mTextMessage;
+//    private TextView mTextMessage;
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
 
@@ -39,7 +39,7 @@ public class Dashboard extends AppCompatActivity {
         fragmentTransaction.replace(R.id.dashcontent_content,new BucketFragment());
         fragmentTransaction.commit();
 
-        mTextMessage = (TextView) findViewById(R.id.message);
+//        mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
@@ -53,16 +53,16 @@ public class Dashboard extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_bucket:
                     fragmentTransaction=fragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.dashcontent_content,new BucketFragment()).commit();
+                    fragmentTransaction.replace(R.id.dashcontent_content,new BucketFragment()).addToBackStack(null).commit();
                     return true;
                 case R.id.navigation_community:
                     fragmentTransaction=fragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.dashcontent_content,new CommunityFragment()).commit();
+                    fragmentTransaction.replace(R.id.dashcontent_content,new CommunityFragment()).addToBackStack(null).commit();
 //                    fragmentTransaction.commit();
                     return true;
                 case R.id.navigation_account:
                     fragmentTransaction=fragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.dashcontent_content,new ProfileFragment()).commit();
+                    fragmentTransaction.replace(R.id.dashcontent_content,new ProfileFragment()).addToBackStack(null).commit();
 //                    fragmentTransaction.commit();
                     return true;
             }

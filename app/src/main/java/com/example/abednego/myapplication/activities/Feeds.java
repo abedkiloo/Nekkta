@@ -19,7 +19,7 @@ RecyclerView feedRecyclerView;
 
     private void xml() {
 
-        feedRecyclerView=findViewById(R.id.recycler_view_feeds);
+        feedRecyclerView= (RecyclerView) findViewById(R.id.recycler_view_feeds);
     }
 
 

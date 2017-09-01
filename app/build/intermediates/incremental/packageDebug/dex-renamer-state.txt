@@ -1,4 +1,7 @@
-#Thu Aug 31 00:00:25 EAT 2017
-base.0=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Fri Sep 01 15:54:46 EAT 2017
+base.0=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e9bd5223f351f42d9a83ba09d8ca078e7a95943
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_433006f79c0877a19841fcf136518f252ba2f29f/classes.dex
+base.1=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_433006f79c0877a19841fcf136518f252ba2f29f
+file.0=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e9bd5223f351f42d9a83ba09d8ca078e7a95943/classes.dex

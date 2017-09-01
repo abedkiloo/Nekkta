@@ -23,21 +23,21 @@ ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xm
 		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:6:22-76
 application
 ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:8:5-35:19
-MERGED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:transition:26.0.1] /home/abedkiloo/.android/build-cache/973268cf5550dab5c9e2cb4b36049780d00341a1/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.0.1] /home/abedkiloo/.android/build-cache/e6d14d38dc576986116874d3060b897491e69fb3/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:26.0.2] /home/abedkiloo/.android/build-cache/e5a36fab04e4c7310054553d8bf0528956ac0823/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.0.2] /home/abedkiloo/.android/build-cache/3a72789051cbf0279fe14470ac8f8e4812d477a6/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.0.2] /home/abedkiloo/.android/build-cache/cdd939a2b29dff84814a13cf6df8ffde9c0a7ddb/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/abedkiloo/.android/build-cache/5408969ee54d65db8052ead217170dc10af0e844/output/AndroidManifest.xml:9:5-20
 MERGED from [io.github.luizgrp.sectionedrecyclerviewadapter:sectionedrecyclerviewadapter:1.1.3] /home/abedkiloo/.android/build-cache/e108d20f48d370ec720b52bca939ec534be8eb42/output/AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:appcompat-v7:26.0.1] /home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.0.1] /home/abedkiloo/.android/build-cache/8a3e0eb5b04b0c05bb8afca07ad009ee6afe7130/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.1] /home/abedkiloo/.android/build-cache/5cbc997400f265e13696c4fe8ea15eae138f73f1/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.1] /home/abedkiloo/.android/build-cache/2d056bbf61ae6b012d48ace15f8dd53ce9aac42c/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.1] /home/abedkiloo/.android/build-cache/b689784d3d29a02879935e3203a5a791994252ee/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/24da647c1bf808c85bcbf2eb9f5498336240f138/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/58387127cc14c7e09e43edf0f07fe44efefc6eb6/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /home/abedkiloo/.android/build-cache/64aa36c94632451f0a678837540ef4a648d3d963/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.0.1] /home/abedkiloo/.android/build-cache/3f75fa61af16dc8ccd1ebfaca9131ae53a646bad/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.1] /home/abedkiloo/.android/build-cache/22ec8c8ec13393f304ee57bb565154885db46158/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/abedkiloo/.android/build-cache/e09edf4602d8820bc9e6a237ee6ddddbbf4417ae/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] /home/abedkiloo/.android/build-cache/837e9179d637cf15f9d3ae0473161c2f7d082105/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/abedkiloo/.android/build-cache/b771961053285466ae1c4de537f775f65c0bde08/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /home/abedkiloo/.android/build-cache/43ef2e446153d6da8a0e9b3934353c0387ab3225/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/abedkiloo/.android/build-cache/c6042e3c5618d6008e0db15cfb678dd8fc864e79/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/abedkiloo/.android/build-cache/bdbc740bdb88e89696285b97f0152bf955bf3051/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/abedkiloo/.android/build-cache/de2ef0b504efa9a9739299cb2f1fe6a825c88de2/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/abedkiloo/.android/build-cache/bb4c43e8576df7219afa5b0f43e4b9f899961785/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/abedkiloo/.android/build-cache/1769d20c9b54d910246aaa73419975884db25bda/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /home/abedkiloo/.android/build-cache/0303db1ab76e32e7283f41ea1185d9fc7a6f9837/output/AndroidManifest.xml:25:5-29:19
 	android:label
 		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:11:9-41
 	android:supportsRtl
@@ -96,23 +96,23 @@ ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xm
 		ADDED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml:32:27-74
 uses-sdk
 INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:26.0.1] /home/abedkiloo/.android/build-cache/973268cf5550dab5c9e2cb4b36049780d00341a1/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.0.1] /home/abedkiloo/.android/build-cache/e6d14d38dc576986116874d3060b897491e69fb3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.0.2] /home/abedkiloo/.android/build-cache/e5a36fab04e4c7310054553d8bf0528956ac0823/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:26.0.2] /home/abedkiloo/.android/build-cache/3a72789051cbf0279fe14470ac8f8e4812d477a6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.2] /home/abedkiloo/.android/build-cache/cdd939a2b29dff84814a13cf6df8ffde9c0a7ddb/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/abedkiloo/.android/build-cache/5408969ee54d65db8052ead217170dc10af0e844/output/AndroidManifest.xml:5:5-7:41
 MERGED from [io.github.luizgrp.sectionedrecyclerviewadapter:sectionedrecyclerviewadapter:1.1.3] /home/abedkiloo/.android/build-cache/e108d20f48d370ec720b52bca939ec534be8eb42/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.0.1] /home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.0.1] /home/abedkiloo/.android/build-cache/8a3e0eb5b04b0c05bb8afca07ad009ee6afe7130/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.1] /home/abedkiloo/.android/build-cache/5cbc997400f265e13696c4fe8ea15eae138f73f1/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.1] /home/abedkiloo/.android/build-cache/2d056bbf61ae6b012d48ace15f8dd53ce9aac42c/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.1] /home/abedkiloo/.android/build-cache/b689784d3d29a02879935e3203a5a791994252ee/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/24da647c1bf808c85bcbf2eb9f5498336240f138/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/58387127cc14c7e09e43edf0f07fe44efefc6eb6/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /home/abedkiloo/.android/build-cache/64aa36c94632451f0a678837540ef4a648d3d963/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.0.1] /home/abedkiloo/.android/build-cache/3f75fa61af16dc8ccd1ebfaca9131ae53a646bad/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.1] /home/abedkiloo/.android/build-cache/22ec8c8ec13393f304ee57bb565154885db46158/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/abedkiloo/.android/build-cache/e09edf4602d8820bc9e6a237ee6ddddbbf4417ae/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.2] /home/abedkiloo/.android/build-cache/837e9179d637cf15f9d3ae0473161c2f7d082105/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/abedkiloo/.android/build-cache/b771961053285466ae1c4de537f775f65c0bde08/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] /home/abedkiloo/.android/build-cache/43ef2e446153d6da8a0e9b3934353c0387ab3225/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/abedkiloo/.android/build-cache/c6042e3c5618d6008e0db15cfb678dd8fc864e79/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/abedkiloo/.android/build-cache/bdbc740bdb88e89696285b97f0152bf955bf3051/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/abedkiloo/.android/build-cache/de2ef0b504efa9a9739299cb2f1fe6a825c88de2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/abedkiloo/.android/build-cache/bb4c43e8576df7219afa5b0f43e4b9f899961785/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/abedkiloo/.android/build-cache/1769d20c9b54d910246aaa73419975884db25bda/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /home/abedkiloo/.android/build-cache/0303db1ab76e32e7283f41ea1185d9fc7a6f9837/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.0.2] /home/abedkiloo/.android/build-cache/e5a36fab04e4c7310054553d8bf0528956ac0823/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
 		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
@@ -120,20 +120,20 @@ MERGED from [com.android.support:support-compat:26.0.1] /home/abedkiloo/.android
 		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
 		INJECTED from /home/abedkiloo/StudioProjects/Nekkta/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.0.1] /home/abedkiloo/.android/build-cache/973268cf5550dab5c9e2cb4b36049780d00341a1/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:cardview-v7:26.0.1] /home/abedkiloo/.android/build-cache/e6d14d38dc576986116874d3060b897491e69fb3/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:appcompat-v7:26.0.1] /home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.0.1] /home/abedkiloo/.android/build-cache/8a3e0eb5b04b0c05bb8afca07ad009ee6afe7130/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.1] /home/abedkiloo/.android/build-cache/5cbc997400f265e13696c4fe8ea15eae138f73f1/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.1] /home/abedkiloo/.android/build-cache/2d056bbf61ae6b012d48ace15f8dd53ce9aac42c/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.1] /home/abedkiloo/.android/build-cache/b689784d3d29a02879935e3203a5a791994252ee/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/24da647c1bf808c85bcbf2eb9f5498336240f138/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/abedkiloo/.android/build-cache/58387127cc14c7e09e43edf0f07fe44efefc6eb6/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.0.1] /home/abedkiloo/.android/build-cache/64aa36c94632451f0a678837540ef4a648d3d963/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.0.1] /home/abedkiloo/.android/build-cache/3f75fa61af16dc8ccd1ebfaca9131ae53a646bad/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.1] /home/abedkiloo/.android/build-cache/22ec8c8ec13393f304ee57bb565154885db46158/output/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.0.2] /home/abedkiloo/.android/build-cache/e5a36fab04e4c7310054553d8bf0528956ac0823/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.0.2] /home/abedkiloo/.android/build-cache/3a72789051cbf0279fe14470ac8f8e4812d477a6/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.0.2] /home/abedkiloo/.android/build-cache/cdd939a2b29dff84814a13cf6df8ffde9c0a7ddb/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/abedkiloo/.android/build-cache/e09edf4602d8820bc9e6a237ee6ddddbbf4417ae/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] /home/abedkiloo/.android/build-cache/837e9179d637cf15f9d3ae0473161c2f7d082105/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/abedkiloo/.android/build-cache/b771961053285466ae1c4de537f775f65c0bde08/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /home/abedkiloo/.android/build-cache/43ef2e446153d6da8a0e9b3934353c0387ab3225/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/abedkiloo/.android/build-cache/c6042e3c5618d6008e0db15cfb678dd8fc864e79/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/abedkiloo/.android/build-cache/bdbc740bdb88e89696285b97f0152bf955bf3051/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/abedkiloo/.android/build-cache/de2ef0b504efa9a9739299cb2f1fe6a825c88de2/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/abedkiloo/.android/build-cache/bb4c43e8576df7219afa5b0f43e4b9f899961785/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/abedkiloo/.android/build-cache/1769d20c9b54d910246aaa73419975884db25bda/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /home/abedkiloo/.android/build-cache/0303db1ab76e32e7283f41ea1185d9fc7a6f9837/output/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.0.2] /home/abedkiloo/.android/build-cache/e5a36fab04e4c7310054553d8bf0528956ac0823/output/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.0.1] /home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.0.2] /home/abedkiloo/.android/build-cache/e5a36fab04e4c7310054553d8bf0528956ac0823/output/AndroidManifest.xml:27:13-51

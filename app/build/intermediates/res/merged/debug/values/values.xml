@@ -708,6 +708,7 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="sp_1">1sp</dimen>
     <dimen name="sp_12">12sp</dimen>
     <dimen name="sp_14">14sp</dimen>
     <dimen name="sp_24">24sp</dimen>
@@ -823,6 +824,8 @@
     </string>
     <string name="met_before">"Hey i am Nekkta! \nHave we met before?"</string>
     <string name="nav_example1">Section with Header</string>
+    <string name="new_bucket">New Bucket</string>
+    <string name="new_bucket_name">Bucket Name</string>
     <string name="no_create_account">No. Create An Account</string>
     <string name="not_a_member">Not a member ?</string>
     <string name="or">or</string>
@@ -840,12 +843,17 @@
     <string name="search_menu_title">Search</string>
     <string name="second_name_ask">What is your second name?</string>
     <string name="second_name_placeholder">second_name</string>
+    <string name="selected_Day">Day</string>
+    <string name="selected_month">Month</string>
+    <string name="selected_year">Year</string>
     <string name="share">Share</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_in_here"><u>Sign In Here</u></string>
     <string name="sign_up">Sign Up</string>
     <string name="sign_up_here"><u>Sign Up Here</u></string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="target_amount">Target Amount</string>
+    <string name="target_time">Target Time</string>
     <string name="text_here">Text Here</string>
     <string name="title_account">Account</string>
     <string name="title_activity_dashboard">Dashboard</string>

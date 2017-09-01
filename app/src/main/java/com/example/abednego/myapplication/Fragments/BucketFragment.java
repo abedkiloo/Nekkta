@@ -37,6 +37,9 @@ public class BucketFragment extends Fragment {
     ArrayList<String> trending;
     ArrayList<String> my_buckets;
 
+
+    
+
     private SectionedRecyclerViewAdapter sectionAdapter;
     private FloatingActionButton new_bucketFloatingActionButton;
 
@@ -111,6 +114,7 @@ public class BucketFragment extends Fragment {
                 // intialize the bucket fragment
                 fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.dash_linear, new NewBucketFragment());
+                fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }
         });
