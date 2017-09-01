@@ -32,16 +32,20 @@
         "source": "/home/abedkiloo/.android/build-cache/e09edf4602d8820bc9e6a237ee6ddddbbf4417ae/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable/ic_dashboard_black_24dp.xml",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable/ic_dashboard_black_24dp.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/home/abedkiloo/.android/build-cache/e09edf4602d8820bc9e6a237ee6ddddbbf4417ae/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable/ic_dashboard_black_24dp.xml",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
         "source": "/home/abedkiloo/.android/build-cache/e09edf4602d8820bc9e6a237ee6ddddbbf4417ae/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable/color_white_custom_drawable.xml",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable/color_white_custom_drawable.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",

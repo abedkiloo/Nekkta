@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Nekkta</string>
+
     <string name="done">Done</string>
     <string name="custom_adapter_intent_values">Custom_adapter_Values</string>
     <string name="user_selection">User_selction</string>
@@ -75,12 +76,16 @@
 
     <!--Buckets Strings-->
     <string name="new_bucket">New Bucket</string>
+    <string name="create">Create</string>
     <string name="new_bucket_name">Bucket Name</string>
     <string name="target_amount">Target Amount</string>
-    <string name="target_time">Target Time</string>
+    <string name="target_time">Select Target Time</string>
     <string name="selected_year">Year</string>
     <string name="selected_month">Month</string>
     <string name="selected_Day">Day</string>
+    <string name="mobile_money">Mobile Money</string>
+    <string name="bank_client">Bank Client</string>
+    <string name="deposit_funds">Deposit Funds</string>
     <string name="select_privacy">Privacy</string>
     <string name="selected_privacy_public">Public</string>
     <string name="selected_privacy_private">Private</string>

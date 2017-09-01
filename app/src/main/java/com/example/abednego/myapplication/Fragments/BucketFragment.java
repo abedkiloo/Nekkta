@@ -1,5 +1,6 @@
 package com.example.abednego.myapplication.Fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
@@ -16,9 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.abednego.myapplication.R;
-
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.example.abednego.myapplication.activities.NewBucketActivity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -84,7 +83,7 @@ public class BucketFragment extends Fragment {
             if (valuees.size() > 0) {
                 sectionAdapter.addSection(new ContactsSection(String.valueOf(entry.getKey()), valuees));
             }
-            Log.e("COUNTER", String.valueOf(counter++));
+
 
         }
 //for(char alphabet = 'A'; alphabet <= 'Z';alphabet++) {
@@ -108,14 +107,15 @@ public class BucketFragment extends Fragment {
                 /**
                  *   get fragment manager & transaction
                  */
+                getActivity().startActivity(new Intent(getContext(),NewBucketActivity.class));
 
-                fragmentManager = getActivity().getSupportFragmentManager();
+//                fragmentManager = getActivity().getSupportFragmentManager();
 
-                // intialize the bucket fragment
-                fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.dash_linear, new NewBucketFragment());
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
+//                // intialize the bucket fragment
+//                fragmentTransaction = fragmentManager.beginTransaction();
+//                fragmentTransaction.replace(R.id.bucket_frag, new NewBucketActivity());
+//                fragmentTransaction.addToBackStack(null);
+//                fragmentTransaction.commit();
             }
         });
 
@@ -168,7 +168,6 @@ public class BucketFragment extends Fragment {
                 for (String val : entry.getValue()) {
                     got_buckets.add(val);
                 }
-                Log.e("ROUNDS", value + " " + String.valueOf(num += 1));
             }
         }
 

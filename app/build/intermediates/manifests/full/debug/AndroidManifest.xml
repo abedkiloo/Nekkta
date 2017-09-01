@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.abednego.myapplication"
     android:versionCode="1"
-    android:versionName="1.0" >
-
+    android:versionName="1.0" > <!-- TODO create a config file -->
+    <!-- TODO dashboard launcher with parameters -->
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="26" />
@@ -26,6 +26,9 @@
         <activity android:name="com.example.abednego.myapplication.activities.RegisterUser" />
         <activity android:name="com.example.abednego.myapplication.activities.SignIn" />
         <activity android:name="com.example.abednego.myapplication.activities.SignUp" />
+        <activity
+            android:name="com.example.abednego.myapplication.activities.NewBucketActivity"
+            android:theme="@style/WhiteTheme" />
         <activity android:name="com.example.abednego.myapplication.activities.Feeds" />
         <activity
             android:name="com.example.abednego.myapplication.activities.Dashboard"

@@ -88,6 +88,10 @@
         "source": "/home/abedkiloo/.android/build-cache/e09edf4602d8820bc9e6a237ee6ddddbbf4417ae/output/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/message_drawable.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/message_drawable.png"
+    },
+    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/view_suggestion_drawable.png",
         "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/view_suggestion_drawable.png"
     },

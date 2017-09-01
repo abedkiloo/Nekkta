@@ -21,6 +21,8 @@
         <activity android:name=".activities.RegisterUser" />
         <activity android:name=".activities.SignIn" />
         <activity android:name=".activities.SignUp" />
+        <activity android:name=".activities.NewBucketActivity"
+            android:theme="@style/WhiteTheme"/>
         <activity android:name=".activities.Feeds" />
         <activity
             android:theme="@style/WhiteTheme"
@@ -33,5 +35,8 @@
             </intent-filter>
         </activity>
     </application>
+
+    <!--TODO create a config file-->
+    <!--TODO dashboard launcher with parameters-->
 
 </manifest>

@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
     tools:context="com.example.abednego.myapplication.activities.Dashboard">
 
     <LinearLayout
@@ -33,6 +32,7 @@
                 android:layout_weight="0.8"
                 android:padding="@dimen/sp_12"
                 android:text="@string/app_name"
+                android:layout_gravity="start"
                 android:textAlignment="viewStart"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="@dimen/sp_24" />

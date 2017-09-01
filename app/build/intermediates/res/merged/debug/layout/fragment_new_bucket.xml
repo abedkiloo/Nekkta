@@ -1,93 +1,198 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_bucket_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/sp_14"
     android:orientation="vertical"
-    tools:context="com.example.abednego.myapplication.Fragments.NewBucketFragment">
+    tools:context="com.example.abednego.myapplication.activities.NewBucketActivity">
 
-    <android.support.v7.widget.AppCompatTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/sp_7"
-        android:text="@string/new_bucket" />
-
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/sp_1"
-        android:background="@color/colorPrimary" />
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <android.support.design.widget.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:text="@string/new_bucket_name" />
-    </android.support.design.widget.TextInputLayout>
-
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <android.support.design.widget.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:text="@string/target_amount" />
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.v7.widget.AppCompatTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/sp_7"
-        android:text="@string/target_time" 
-        />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="1"
-        >
+        android:layout_margin="@dimen/sp_14"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.8"
+                android:padding="@dimen/sp_12"
+                android:text="@string/new_bucket"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_24" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sp_1"
+            android:background="@color/colorPrimary" />
+
         <android.support.design.widget.TextInputLayout
-            android:layout_width="0dp"
-            android:layout_weight="0.3"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
-                android:text="@string/selected_year" />
+                android:hint="@string/new_bucket_name"
+                android:inputType="text" />
         </android.support.design.widget.TextInputLayout>
+
         <android.support.design.widget.TextInputLayout
-            android:layout_width="0dp"
-            android:layout_weight="0.3"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
-                android:text="@string/selected_month" />
+                android:hint="@string/target_amount"
+                android:inputType="text" />
         </android.support.design.widget.TextInputLayout>
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="0dp"
-            android:layout_weight="0.3"
-            android:layout_height="wrap_content">
 
-            <android.support.design.widget.TextInputEditText
-                android:layout_width="match_parent"
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_select_target_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sp_7"
+            android:hint="@string/target_time" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/sp_14"
+            android:layout_marginStart="@dimen/sp_14"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/sp_12"
+            android:paddingLeft="@dimen/sp_14"
+            android:paddingRight="@dimen/sp_12"
+            android:paddingStart="@dimen/sp_14"
+            android:weightSum="1">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:inputType="text"
-                android:text="@string/selected_Day" />
-        </android.support.design.widget.TextInputLayout>
+                android:layout_weight="0.3">
 
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_target_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/selected_year"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_target_month"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/selected_month"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_target_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/selected_Day"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sp_7"
+            android:text="@string/select_privacy" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="@string/selected_privacy_my_contacts" />
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="@string/selected_privacy_public" />
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="@string/selected_privacy_private" />
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sp_7"
+            android:text="@string/deposit_funds" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/sp_14">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/color_white_custom_drawable"
+                android:padding="@dimen/sp_7"
+                android:text="@string/mobile_money" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/color_white_custom_drawable"
+                android:padding="@dimen/sp_7"
+                android:text="@string/bank_client" />
+        </RelativeLayout>
 
     </LinearLayout>
 
-
-</LinearLayout>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_create_bucket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="btnCreate"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/color_white_custom_drawable"
+        android:padding="@dimen/sp_7"
+        android:hint="@string/create" />
+</RelativeLayout>

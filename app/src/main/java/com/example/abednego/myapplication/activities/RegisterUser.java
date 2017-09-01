@@ -278,7 +278,7 @@ public class RegisterUser extends AppCompatActivity {
                 calendar.get(Calendar.DAY_OF_MONTH), new DatePicker.OnDateChangedListener() {
                     @Override
                     public void onDateChanged(DatePicker datePicker, int year, int month, int dayOfMonth) {
-                        Log.d("Date", "Year=" + year + " Month=" + (month + 1) + " day=" + dayOfMonth);
+
                         typed_response_edit_text.setText(dayOfMonth + "/" + month + "/" + year);
                     }
                 });

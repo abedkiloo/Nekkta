@@ -132,10 +132,10 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#fff</color>
+    <color name="colorAccent">#bc2351</color>
     <color name="colorPrimary">#8b1337</color>
     <color name="colorPrimaryDark">#540839</color>
-    <color name="color_white">#ffffff</color>
+    <color name="color_al_white">#e2e0e0</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -800,10 +800,13 @@
     <string name="app_name">Nekkta</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="archive">Archive</string>
+    <string name="bank_client">Bank Client</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="comment">Comment</string>
+    <string name="create">Create</string>
     <string name="custom_adapter_intent_values">Custom_adapter_Values</string>
+    <string name="deposit_funds">Deposit Funds</string>
     <string name="done">Done</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">Nekkta Community</string>
@@ -823,6 +826,7 @@
     realtime savings manager. but First i would like to know you better.
     </string>
     <string name="met_before">"Hey i am Nekkta! \nHave we met before?"</string>
+    <string name="mobile_money">Mobile Money</string>
     <string name="nav_example1">Section with Header</string>
     <string name="new_bucket">New Bucket</string>
     <string name="new_bucket_name">Bucket Name</string>
@@ -843,8 +847,12 @@
     <string name="search_menu_title">Search</string>
     <string name="second_name_ask">What is your second name?</string>
     <string name="second_name_placeholder">second_name</string>
+    <string name="select_privacy">Privacy</string>
     <string name="selected_Day">Day</string>
     <string name="selected_month">Month</string>
+    <string name="selected_privacy_my_contacts">My Contacts</string>
+    <string name="selected_privacy_private">Private</string>
+    <string name="selected_privacy_public">Public</string>
     <string name="selected_year">Year</string>
     <string name="share">Share</string>
     <string name="sign_in">Sign In</string>
@@ -853,7 +861,7 @@
     <string name="sign_up_here"><u>Sign Up Here</u></string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="target_amount">Target Amount</string>
-    <string name="target_time">Target Time</string>
+    <string name="target_time">Select Target Time</string>
     <string name="text_here">Text Here</string>
     <string name="title_account">Account</string>
     <string name="title_activity_dashboard">Dashboard</string>
@@ -2270,7 +2278,7 @@
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
