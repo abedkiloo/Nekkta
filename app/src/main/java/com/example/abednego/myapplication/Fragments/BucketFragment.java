@@ -9,7 +9,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -131,31 +130,8 @@ public class BucketFragment extends Fragment {
         if (getActivity() instanceof AppCompatActivity) {
             AppCompatActivity activity = ((AppCompatActivity) getActivity());
             if (activity.getSupportActionBar() != null)
-                activity.getSupportActionBar().setTitle(R.string.nav_example1);
+                activity.getSupportActionBar().setTitle(R.string.dashboard);
         }
-    }
-
-    private List<String> getContactsWithLetter(char letter) {
-        List<String> contacts = new ArrayList<>();
-
-        for (String contact : getResources().getStringArray(R.array.names)) {
-            if (contact.charAt(0) == letter) {
-                contacts.add(contact);
-            }
-        }
-
-        return contacts;
-    }
-
-    private List<String> getContactsWithPhrase(String value) {
-        List<String> contacts = new ArrayList<>();
-        for (String contact : getResources().getStringArray(R.array.names)) {
-            if (contact.contains(value)) {
-                contacts.add(contact);
-            }
-        }
-
-        return contacts;
     }
 
     private List<String> getBucketValues(String value) {

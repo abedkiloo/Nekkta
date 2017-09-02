@@ -2,17 +2,19 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <!--TODO add menu to help in archive and download of picture or feeds-->
     <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
         android:layout_margin="@dimen/sp_7"
+        card_view:cardBackgroundColor="@color/white"
         card_view:cardCornerRadius="@dimen/sp_3">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/sp_7">
 
             <RelativeLayout
                 android:id="@+id/describe_feed"
@@ -27,17 +29,24 @@
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="@dimen/sp_48"
-                        android:layout_weight="0.2">
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:background="@color/white">
 
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/header_icon"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sp_48"
+                            android:src="@@drawable/not_liked_drawable" />
 
                     </RelativeLayout>
 
                     <LinearLayout
                         android:layout_width="0dp"
-                        android:layout_height="@dimen/sp_48"
-                        android:layout_weight="0.8"
-                        android:orientation="vertical">
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.75"
+                        android:orientation="vertical"
+                        android:padding="@dimen/sp_7">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -45,80 +54,169 @@
                             android:orientation="horizontal">
 
                             <android.support.v7.widget.AppCompatTextView
+                                android:id="@+id/feeds_heading"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="06"
-                                android:text="ABC TOurs" />
+                                android:layout_weight="08"
+                                android:text="ABC TOurs"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/sp_18"
+                                android:textStyle="bold"
+                                android:typeface="serif" />
 
                             <android.support.v7.widget.AppCompatTextView
+                                android:id="@+id/feeds_timer"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="04"
-                                android:text="20" />
+                                android:layout_weight="02"
+                                android:text="20"
+                                android:textAlignment="center"
+                                android:textColor="@color/color_al_white"
+                                android:typeface="sans" />
+
+
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical">
 
                             <android.support.v7.widget.AppCompatTextView
+                                android:id="@+id/feeds_description_header"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Get a chance to visit Mt Kenys end of the month" />
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="Mount Kenya is a stratovolcano created approximately 3 million years after the opening of the East African rift.
+                            Before glaciation, it was 7,000 m (23,000 ft) high. It was covered by an ice cap for thousands of years."
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
 
                     </LinearLayout>
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/more_feed"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"
+                        android:src="@drawable/stacked_drawble"/>
                 </LinearLayout>
             </RelativeLayout>
+
             <RelativeLayout
-                android:layout_below="@+id/describe_feed"
                 android:id="@+id/layout_pic_of_feed"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/describe_feed"
+                android:layout_marginTop="@dimen/sp_7">
+
                 <android.support.v7.widget.AppCompatImageView
-                    android:scaleType="fitXY"
-                    android:padding="@dimen/sp_12"
+
+                    android:id="@+id/feeds_image_view"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@mipmap/pic1"/>
-            </RelativeLayout><RelativeLayout
-                android:layout_below="@+id/layout_pic_of_feed"
+                    android:layout_height="200sp"
+
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/pic1" />
+            </RelativeLayout>
+
+            <RelativeLayout
                 android:id="@+id/feeds_stats"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-               <LinearLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:orientation="horizontal"
-                   android:weightSum="1">
-                   <android.support.v7.widget.AppCompatTextView
-                       android:layout_width="0dp"
-                       android:layout_weight="0.25"
-                       android:layout_height="wrap_content"
-                       android:drawableLeft="@drawable/not_liked_drawable"
-                       android:text="@string/like"/>
-                   <android.support.v7.widget.AppCompatTextView
-                       android:layout_width="0dp"
-                       android:layout_weight="0.25"
-                       android:layout_height="wrap_content"
-                       android:drawableLeft="@drawable/comment_drawable"
-                       android:text="@string/comment"/>
-                   <android.support.v7.widget.AppCompatTextView
-                       android:layout_width="0dp"
-                       android:layout_weight="0.25"
-                       android:layout_height="wrap_content"
-                       android:drawableLeft="@drawable/archive_drawable"
-                       android:text="@string/archive"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_pic_of_feed">
 
-                   <android.support.v7.widget.AppCompatTextView
-                       android:layout_width="0dp"
-                       android:layout_height="wrap_content"
-                       android:layout_weight="0.25"
-                       android:drawableLeft="@drawable/share_drawable"
-                       android:text="@string/share" />
-               </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/sp_7"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.2"
+                            android:src="@@drawable/not_liked_drawable" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/feeds_like_tv_counter"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.8"
+                            android:padding="@dimen/sp_3"
+                            android:text="@string/like"
+                            android:textAlignment="center"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.2"
+                            android:src="@@drawable/comment_drawable" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/feeds_comment_tv_counter"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.8"
+                            android:padding="@dimen/sp_3"
+                            android:text="@string/comment"
+                            android:textAlignment="center"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                    <!--<android.support.v7.widget.AppCompatTextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="0.25"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:drawableLeft="@drawable/archive_drawable"-->
+                    <!--android:text="@string/archive"/>-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:src="@@drawable/share_drawable" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:src="@@drawable/archive_drawable" />
+
+                    </LinearLayout>
+                </LinearLayout>
             </RelativeLayout>
         </RelativeLayout>
 

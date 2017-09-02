@@ -24,16 +24,16 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.2"
-                android:src="@mipmap/nekkta_icon" />
+           />
 
             <android.support.v7.widget.AppCompatTextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.8"
                 android:padding="@dimen/sp_12"
-                android:text="@string/app_name"
-                android:layout_gravity="start"
-                android:textAlignment="viewStart"
+                android:text="@string/dashboard"
+                android:layout_gravity="center"
+                android:textAlignment="center"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="@dimen/sp_24" />
         </LinearLayout>

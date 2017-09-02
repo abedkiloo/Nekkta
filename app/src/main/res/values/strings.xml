@@ -71,12 +71,12 @@
 
 
 
-    <string name="nav_example1">Section with Header</string>
+    <string name="dashboard">Dashboard</string>
 
 
     <!--Buckets Strings-->
     <string name="new_bucket">New Bucket</string>
-    <string name="create">Create</string>
+    <string name="create">Create Bucket</string>
     <string name="new_bucket_name">Bucket Name</string>
     <string name="target_amount">Target Amount</string>
     <string name="target_time">Select Target Time</string>
@@ -90,4 +90,5 @@
     <string name="selected_privacy_public">Public</string>
     <string name="selected_privacy_private">Private</string>
     <string name="selected_privacy_my_contacts">My Contacts</string>
+    <string name="pick_date">Pick Date</string>
 </resources>

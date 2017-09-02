@@ -17,15 +17,11 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@mipmap/nekkta_icon" />
-        <include
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            layout="@layout/date_picker"
-            android:id="@+id/include_layout"
-            />
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/sp_7"
             android:layout_marginStart="@dimen/sp_7">
 
             <android.support.v7.widget.AppCompatTextView
@@ -40,8 +36,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:layout_below="@+id/register_questioner"
-                android:textAlignment="textEnd">
+                >
 
             </android.support.v7.widget.RecyclerView>
 
@@ -73,6 +70,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
                     android:layout_below="@+id/recy_answers"
                     android:layout_weight="0.2"
                     android:background="@drawable/custom_text_views_no_fill"

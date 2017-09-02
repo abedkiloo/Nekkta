@@ -27,7 +27,7 @@
                 android:layout_weight="0.8"
                 android:padding="@dimen/sp_12"
                 android:text="@string/new_bucket"
-                android:textAlignment="viewStart"
+                android:textAlignment="center"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="@dimen/sp_24" />
         </LinearLayout>
@@ -185,14 +185,16 @@
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/btn_create_bucket"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:onClick="btnCreate"
-        android:textColor="@color/colorPrimaryDark"
-        android:background="@drawable/color_white_custom_drawable"
+        android:textColor="@color/color_al_white"
+        android:background="@drawable/color_accent_custom_drawable"
         android:padding="@dimen/sp_7"
-        android:hint="@string/create" />
+        android:textAllCaps="false"
+        android:text="@string/create" />
+
 </RelativeLayout>

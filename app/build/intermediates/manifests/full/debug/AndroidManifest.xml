@@ -24,21 +24,25 @@
         </activity>
         <activity android:name="com.example.abednego.myapplication.activities.Interactive" />
         <activity android:name="com.example.abednego.myapplication.activities.RegisterUser" />
-        <activity android:name="com.example.abednego.myapplication.activities.SignIn" />
-        <activity android:name="com.example.abednego.myapplication.activities.SignUp" />
-        <activity
-            android:name="com.example.abednego.myapplication.activities.NewBucketActivity"
-            android:theme="@style/WhiteTheme" />
-        <activity android:name="com.example.abednego.myapplication.activities.Feeds" />
-        <activity
-            android:name="com.example.abednego.myapplication.activities.Dashboard"
-            android:label="@string/title_activity_dashboard"
-            android:theme="@style/WhiteTheme" >
+        <activity android:name="com.example.abednego.myapplication.activities.SignIn" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.abednego.myapplication.activities.SignUp" />
+        <activity
+            android:name="com.example.abednego.myapplication.activities.NewBucketActivity"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.example.abednego.myapplication.activities.Feeds"
+            android:theme="@style/WhiteTheme" >
+        </activity>
+        <activity
+            android:name="com.example.abednego.myapplication.activities.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/WhiteTheme" >
         </activity>
 
         <meta-data

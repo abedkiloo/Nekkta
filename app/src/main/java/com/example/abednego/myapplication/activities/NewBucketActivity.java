@@ -74,6 +74,12 @@ public class NewBucketActivity extends AppCompatActivity {
 
 
     public void btnCreate(View view) {
+        startActivity(new Intent(getApplicationContext(), Feeds.class));
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
         startActivity(new Intent(getApplicationContext(), Dashboard.class));
     }
 }

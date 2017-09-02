@@ -3,7 +3,7 @@ package com.example.abednego.myapplication.Fragments;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +16,7 @@ import java.util.Calendar;
 
 public class DateFragment extends Fragment {
     DatePicker datePicker;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -28,11 +29,11 @@ public class DateFragment extends Fragment {
                 calendar.get(Calendar.DAY_OF_MONTH), new DatePicker.OnDateChangedListener() {
                     @Override
                     public void onDateChanged(DatePicker datePicker, int year, int month, int dayOfMonth) {
-                        Intent dateIntent=new Intent(getContext(), NewBucketActivity.class);
-                        dateIntent.putExtra("YEAR",String.valueOf(year));
-                        dateIntent.putExtra("MONTH",String.valueOf(month));
-                        dateIntent.putExtra("DAY",String.valueOf(dayOfMonth));
-
+                        Intent dateIntent = new Intent(getContext(), NewBucketActivity.class);
+                        dateIntent.putExtra("YEAR", String.valueOf(year));
+                        dateIntent.putExtra("MONTH", String.valueOf(month));
+                        dateIntent.putExtra("DAY", String.valueOf(dayOfMonth));
+                        getActivity().getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
                         getActivity().startActivity(dateIntent);
 //                        typed_response_edit_text.setText(dayOfMonth + "/" + month + "/" + year);
                     }

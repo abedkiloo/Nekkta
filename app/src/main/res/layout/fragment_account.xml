@@ -4,9 +4,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.abednego.myapplication.Fragments.ProfileFragment">
-
-    <!-- TODO: Update blank fragment layout -->
     <LinearLayout
+        android:id="@+id/linear_bucket_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:padding="@dimen/sp_12"
+            android:text="@string/title_account"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/sp_24" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sp_1"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/sp_7"

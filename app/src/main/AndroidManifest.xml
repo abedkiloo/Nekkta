@@ -19,20 +19,23 @@
         </activity>
         <activity android:name=".activities.Interactive" />
         <activity android:name=".activities.RegisterUser" />
-        <activity android:name=".activities.SignIn" />
-        <activity android:name=".activities.SignUp" />
-        <activity android:name=".activities.NewBucketActivity"
-            android:theme="@style/WhiteTheme"/>
-        <activity android:name=".activities.Feeds" />
-        <activity
-            android:theme="@style/WhiteTheme"
-            android:name=".activities.Dashboard"
-            android:label="@string/title_activity_dashboard">
+        <activity android:name=".activities.SignIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".activities.SignUp" />
+        <activity android:name=".activities.NewBucketActivity"
+            android:theme="@style/WhiteTheme"/>
+        <activity android:name=".activities.Feeds"
+            android:theme="@style/WhiteTheme">
+        </activity>
+        <activity android:name=".activities.Dashboard"
+            android:theme="@style/WhiteTheme"
+            android:label="@string/title_activity_dashboard">
+
         </activity>
     </application>
 
