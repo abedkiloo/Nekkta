@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/sp_14"
-    tools:context="com.example.abednego.myapplication.Fragments.CommunityFragment">
+    tools:context="com.example.abednego.nekkta.Fragments.CommunityFragment">
 
     <LinearLayout
         android:id="@+id/liner_comm_header"

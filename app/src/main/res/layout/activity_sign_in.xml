@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.abednego.myapplication.activities.SignIn">
+    tools:context="com.example.abednego.nekkta.activities.SignIn">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,25 +27,46 @@
             android:layout_below="@+id/text_view_label_app"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true">
-
-            <android.support.v7.widget.AppCompatTextView
-                android:id="@+id/fb_text_view_sign_in"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:id="@+id/sign_method_linear"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/color_primary_dark_custom_drawable"
-                android:drawableLeft="@drawable/fb_drawable"
-                android:drawableStart="@drawable/fb_drawable"
-                android:padding="@dimen/sp_12"
-                android:text="@string/fb_sign_in"
-                android:textAlignment="center"
-                android:textColor="@color/color_al_white" />
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:padding="@dimen/sp_7">
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_margin="@dimen/sp_7"
+                    android:id="@+id/fb_text_view_sign_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/color_primary_dark_custom_drawable"
+                    android:drawableLeft="@drawable/fb_drawable"
+                    android:drawableStart="@drawable/fb_drawable"
+                    android:padding="@dimen/sp_12"
+                    android:text="@string/fb_sign_in"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_al_white" />
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_margin="@dimen/sp_7"
+                    android:id="@+id/google_text_view_sign_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/color_primary_dark_custom_drawable"
+                    android:drawableLeft="@drawable/fb_drawable"
+                    android:drawableStart="@drawable/fb_drawable"
+                    android:padding="@dimen/sp_12"
+                    android:text="@string/fb_sign_in"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_al_white" />
+
+            </LinearLayout>
+
 
             <android.support.v7.widget.AppCompatTextView
                 android:id="@+id/text_view_or"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/fb_text_view_sign_in"
+                android:layout_below="@+id/sign_method_linear"
                 android:layout_centerHorizontal="true"
                 android:text="@string/or"
                 android:textSize="@dimen/sp_24" />

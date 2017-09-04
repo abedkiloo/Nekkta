@@ -91,4 +91,10 @@
     <string name="selected_privacy_private">Private</string>
     <string name="selected_privacy_my_contacts">My Contacts</string>
     <string name="pick_date">Pick Date</string>
+
+
+
+
+    <!--facebook id-->
+    <string name="facebook_app_id">127035157936099</string>
 </resources>

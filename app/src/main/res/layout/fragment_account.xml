@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.abednego.myapplication.Fragments.ProfileFragment">
+    tools:context="com.example.abednego.nekkta.Fragments.ProfileFragment">
     <LinearLayout
         android:id="@+id/linear_bucket_header"
         android:layout_width="match_parent"

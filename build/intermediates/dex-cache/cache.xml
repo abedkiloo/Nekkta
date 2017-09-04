@@ -2,58 +2,76 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/24da647c1bf808c85bcbf2eb9f5498336240f138/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e7424f816f538c2acfba6169b25e297ea22afbd8">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_f51f0e404942f5bb1c07b228fdab0951030ff9f4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/973268cf5550dab5c9e2cb4b36049780d00341a1/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="56e96fa067ba358a6c60184e40947810dcd78f30">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_6740b4bf64be9ec6b239223e5f214f96122e9979.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/22ec8c8ec13393f304ee57bb565154885db46158/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="22c673e65215e0764add61e3102946de895439e4">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_827e72a4242a842600e608b0d6cbc10c54ca6857.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/e6d14d38dc576986116874d3060b897491e69fb3/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="10c32fcf3d0acc4b208fc39f8d2e16b69ef8bd3b">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_9e518c211d62947e20816be761bcc3f1b304bdf9.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/c6042e3c5618d6008e0db15cfb678dd8fc864e79/output/jars/classes.jar"
+        jar="/home/abedkiloo/.android/build-cache/dffea84685cc8d2f0e8c7c3fb7b18e12642210db/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="eef44a34be1eef845ecb4072e3692b434af05ad4">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7dbf1b958478f2534c8231c2cf5f753bd558789f/classes.dex" />
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_73c5613be86fef81321986d212a121a4e2adec71/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/e09edf4602d8820bc9e6a237ee6ddddbbf4417ae/output/jars/classes.jar"
+        jar="/home/abedkiloo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="28cb30c89c8e501ded77e960407731df6c54b844">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5887cf5572ab2a4a2afaf6a51ce916c426f3af7c/classes.dex" />
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_cf670e7d156c2bfd9bf3f109c1748fd57b4824c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abedkiloo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_e43a8a7eb8ac4f04dd85a0de04e3129549ef0252/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abedkiloo/.android/build-cache/ab22cfc412469104c261b271c84ab2e6b03c1e9e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6038982bd3aad5b24885e63d4de968546feec251/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abedkiloo/.android/build-cache/7cc7120369f3e77ec6541088e0c5866d31850c53/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2e5fa621c8e94d2b1a8c0e102daa26c7c50029b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abedkiloo/.android/build-cache/45d97a1a613272ffcecd303b4e5e2cbd5cdd4060/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9c95b9ab2ee6619f2ac6059ab6aeea181ea83ddf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abedkiloo/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.3.0_d14a7404f95fd866c64af5ef88cce805ca6d02cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abedkiloo/.android/build-cache/d11bbbcd87569caf03b325fdeee5971bab5a6324/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cad6f251cba07624f49b0c5b6287731a3c9957b8">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_267e0533ebab3d1358388e12044ff6312fbf07dc/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -61,17 +79,35 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="af43a0175456cbb13bf3e8316698eac728fc3f4b">
+        sha1="783dcf001de9776e3e9e2e8d82145bd490f4806e">
         <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e9bd5223f351f42d9a83ba09d8ca078e7a95943/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/bdbc740bdb88e89696285b97f0152bf955bf3051/output/jars/classes.jar"
+        jar="/home/abedkiloo/.android/build-cache/8269799bb516e3dd3e34d7894ef5de5696e97e29/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="4e38f488b591fa8ef9dce3e21752c92bde5f6f7c">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4c98c04dc6f4d56ee72a923be18e3568cb1bb36e/classes.dex" />
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a2d1c79721416a910e742624a2ac364046616ce4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abedkiloo/.android/build-cache/95c50ff151cb75bf394c74357fea9768ff055755/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e09663005d70dcedff0bb77211b9ac52d8b69421">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_97be8fcb74dff52bf2f2fd2d9a948f9ae3c1e1d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abedkiloo/.android/build-cache/be72b73555d0072a46b631a060aaeb036ee9ff10/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7b4dc2d9e39fb8ec5ddca9b3b3cb7c627690f3a6">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4daac0b8c822b8357ed60080841cb99656edd518/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -83,229 +119,40 @@
         <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_433006f79c0877a19841fcf136518f252ba2f29f/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/abedkiloo/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_43f8ce593c510bae67ba99b7379d984e1f71a306.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/cdd939a2b29dff84814a13cf6df8ffde9c0a7ddb/output/jars/classes.jar"
+        jar="/home/abedkiloo/.android/build-cache/533ca3936d559d3872bfb2cee275b40d9f74879f/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="f6e937fc4829662d169f20da6f208e053f3714a8">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c86fff9dc568c5ed3f6b079eaa6e535689d03bd5/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/2d056bbf61ae6b012d48ace15f8dd53ce9aac42c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="dff4d8f88fe2c0e57306e6981fd9b90caeead7e3">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_41e5df167f3bf014f24fdf90c6283c198f639602.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/3f75fa61af16dc8ccd1ebfaca9131ae53a646bad/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="71af915b7f4f7ec0b5f768b365145bb6a5cb9a66">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_9ecf4b2a8be47db5ca89edfbe09d823926a9f88c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.1/e1bb32b12b25e2f78e6786059ca7ea878f8345e0/support-annotations-26.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e1bb32b12b25e2f78e6786059ca7ea878f8345e0">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.1_bce9ccf6eefc134744186f48cecbe7bb3ff447d1.jar" />
+        sha1="edba0aec4aedd4edb3a520b4ee87adc52be762da">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d1fd7358d94fcc071006b13435a26ddaeba102de/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/1769d20c9b54d910246aaa73419975884db25bda/output/jars/classes.jar"
+        jar="/home/abedkiloo/.android/build-cache/6d69a69d7915e0057a793be5552f0a4d42664e50/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="b4a446c110c5a9f3a62907367d5eea4d4062c36a">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4c62e8234ca3184dcfeb2af523c3450242f40f3b/classes.dex" />
+        sha1="28ed270c519ff2874343e0824808da2efda0df9c">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a58fbdd71531ed2d555d2a660e40e150da4d57d0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/43ef2e446153d6da8a0e9b3934353c0387ab3225/output/jars/classes.jar"
+        jar="/home/abedkiloo/.android/build-cache/7d9e03406c1cf5c72bf0336fa01898731005fe78/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="f9f219b8a8acc35922ab06f4ff29769041481b4b">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_076e7560d52cb0676cc6eba830efceb4633c4cf2/classes.dex" />
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9145352517d00944dd6b950c2718bcd5a899d205/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/bb4c43e8576df7219afa5b0f43e4b9f899961785/output/jars/classes.jar"
+        jar="/home/abedkiloo/.android/build-cache/66866b993204d875b7b90a46f1d2c821ce73b9e1/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="94d358351559620a2c3d2ba3ac04d03a59a61bb3">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_32846f3741d796b1edfbcad8aabb42567b270d38/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/0303db1ab76e32e7283f41ea1185d9fc7a6f9837/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="138b5e3a5341bb37117b13f327de68f81f9f0669">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5314cf5d5120fd5ae3a715f2d0a6fb5a18d94f45/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/e5a36fab04e4c7310054553d8bf0528956ac0823/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="53762fb1daacc5e5fb9ce83c4d00365f71c10f1a">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_987e5c87456c04596b82f20a2f00c189fd62fa19/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/b689784d3d29a02879935e3203a5a791994252ee/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d095503f29a8dedc55b9326ed97a5902a1527ab9">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_2c7b4088a0e1ef2554a33783bfbe854142eb56fb.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/b771961053285466ae1c4de537f775f65c0bde08/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="48a969b476c5c4bd8cabfe295428ff222bc68b8e">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4a35b51ea9eb60dea66fe6492116b505e523e900/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/63525b8dc024df3ab9dd2cadced1114e6ba71ecb/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="c390af22079a61fdc42712c19f15a700f1fc2cbf">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_8ba93535bc1d138730d7db96257e44cf2828e6e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/5cbc997400f265e13696c4fe8ea15eae138f73f1/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a4590fa7eadce322ca893129fdc999074e1aa5bf">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_1ee4f9f5727bbabcb0bc377bad780977afc11f3a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/58387127cc14c7e09e43edf0f07fe44efefc6eb6/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="083e7bc5a9d9404b49b8f34e5091532361fa28e6">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_18354c91e07c7eb38ec691aae477cf4a2003a5be.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/3a72789051cbf0279fe14470ac8f8e4812d477a6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="df0c541b5406292d1c3d74fc8ea119bde14e77b0">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f31389a3a1422b70546fa83f0e1ef5bd75a8f2c8/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/library-1.0.19_316af0cc7a8c04d35d102b060581ce524b7891c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/e108d20f48d370ec720b52bca939ec534be8eb42/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8caaa885c5f74a2555333b2f770b56c1a8d9aa87">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_c34f77c75247677d6c58c416826c3a80474ad272.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/5408969ee54d65db8052ead217170dc10af0e844/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_6d981dadfb98d4e7c79e795f4c6ff93474e39cc6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/64aa36c94632451f0a678837540ef4a648d3d963/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="5b65ec1ebc84af3baecfd28954c9e7ff01b937a8">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_60b42b80977c0820ccd6f12eebe540b98aec9ed7.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/de2ef0b504efa9a9739299cb2f1fe6a825c88de2/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="97cd0ab3ffad045a162fc1a413fe6abc58e199c4">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f193867840f0fafaaae98e41595aaccf0629db47/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/8a3e0eb5b04b0c05bb8afca07ad009ee6afe7130/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_efb12626d6b0ac1dc2ec339c02540fcb8102106d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/abedkiloo/.android/build-cache/93dd5924bb05a49f78e8e2c8aa5b01417d95729b/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="681eeeaec5300e5257ad9bf889c3859ba3833d5a">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/pre-dexed/debug/classes_747c902990a7efa6b88db5d6f0a56fd7aa8b85e8.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/abedkiloo/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.2/8b68a849722b44f584e2d68c451c5e3844c10380/support-annotations-26.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8b68a849722b44f584e2d68c451c5e3844c10380">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.2_edd18d9d2e247d3f5e48bed1ce562e1d254bc02c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/abedkiloo/.android/build-cache/837e9179d637cf15f9d3ae0473161c2f7d082105/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dde42d045a065ca6c3f777963a4cffa1cdf22c1e/classes.dex" />
+        sha1="36a6c288ed760d2d899126fa90761b84af10dd2d">
+        <dex dex="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5a239a0baa6e43aa5008de5aaa69e1d5a44969f7/classes.dex" />
     </item>
 
 </items>

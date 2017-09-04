@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "92531865462",
+    "firebase_url": "https://nekkta-7ab10.firebaseio.com",
+    "project_id": "nekkta-7ab10",
+    "storage_bucket": "nekkta-7ab10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92531865462:android:11bfa130e7b887c3",
+        "android_client_info": {
+          "package_name": "com.example.abednego.nekkta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92531865462-5odomgf2d0vn1tltnfbsifcnl0m7o9h9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abednego.nekkta",
+            "certificate_hash": "dc19d283229239b840bfd25427d85a8f0ab87e5b"
+          }
+        },
+        {
+          "client_id": "92531865462-pjcac96kfg7l94m8t69t01g844vtq4os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVr4ZEjvYTr8X2E_z-zIu-MYQysWIaqwU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92531865462-pjcac96kfg7l94m8t69t01g844vtq4os.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
