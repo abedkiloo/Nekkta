@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">92531865462-pjcac96kfg7l94m8t69t01g844vtq4os.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://nekkta-7ab10.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">92531865462</string>
+    <string name="google_api_key" translatable="false">AIzaSyDVr4ZEjvYTr8X2E_z-zIu-MYQysWIaqwU</string>
+    <string name="google_app_id" translatable="false">1:92531865462:android:11bfa130e7b887c3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDVr4ZEjvYTr8X2E_z-zIu-MYQysWIaqwU</string>
+    <string name="google_storage_bucket" translatable="false">nekkta-7ab10.appspot.com</string>
+</resources>

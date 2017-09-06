@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abednego.nekkta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/nekkta_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/nekkta_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.example.abednego.nekkta.activities.Splash"
+            android:label="@string/title_activity_fullscreen">
+
+        </activity>
+        <activity android:name="com.example.abednego.nekkta.activities.Interactive" />
+        <activity android:name="com.example.abednego.nekkta.activities.RegisterUser" />
+        <activity android:name="com.example.abednego.nekkta.activities.SignIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.abednego.nekkta.activities.SignUp" />
+        <activity
+            android:name="com.example.abednego.nekkta.activities.NewBucketActivity"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.example.abednego.nekkta.activities.Feeds"
+            android:theme="@style/WhiteTheme">
+
+        </activity>
+        <activity
+            android:name="com.example.abednego.nekkta.activities.Landing"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/WhiteTheme">
+
+        </activity>
+    </application>
+
+    <!--   TODO create a config file -->
+    <!--   TODO dashboard launcher with parameters  -->
+
+</manifest>

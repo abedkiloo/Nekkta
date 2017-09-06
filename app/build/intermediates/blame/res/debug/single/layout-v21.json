@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/abedkiloo/.android/build-cache/3e47db4fbe645089ae28a96abc55c1c03056f4b7/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/abedkiloo/.android/build-cache/3e47db4fbe645089ae28a96abc55c1c03056f4b7/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/abedkiloo/.android/build-cache/3e47db4fbe645089ae28a96abc55c1c03056f4b7/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/abedkiloo/.android/build-cache/3e47db4fbe645089ae28a96abc55c1c03056f4b7/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/abedkiloo/.android/build-cache/3e47db4fbe645089ae28a96abc55c1c03056f4b7/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/abedkiloo/.android/build-cache/3e47db4fbe645089ae28a96abc55c1c03056f4b7/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/abedkiloo/.android/build-cache/3e47db4fbe645089ae28a96abc55c1c03056f4b7/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/abedkiloo/.android/build-cache/3e47db4fbe645089ae28a96abc55c1c03056f4b7/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
