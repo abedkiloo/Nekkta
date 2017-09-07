@@ -1,6 +1,7 @@
 package com.example.abednego.nekkta.activities;
 
 
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TextInputEditText;
@@ -75,6 +76,7 @@ public class NewBucketActivity extends AppCompatActivity {
 
     public void btnCreate(View view) {
         startActivity(new Intent(getApplicationContext(), Feeds.class));
+
     }
 
     @Override

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
-        "source": "/home/abedkiloo/.android/build-cache/14e6321609e5a3a03160f1aa788c680d545ddbf3/output/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
         "source": "/home/abedkiloo/.android/build-cache/14e6321609e5a3a03160f1aa788c680d545ddbf3/output/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
     }

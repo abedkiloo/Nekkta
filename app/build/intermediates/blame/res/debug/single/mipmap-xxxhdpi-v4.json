@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/nekkta_icon.png",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/src/main/res/mipmap-xxxhdpi/nekkta_icon.png"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/nekkta_icon.png",
         "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/mipmap-xxxhdpi/nekkta_icon.png"
     }

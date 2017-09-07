@@ -1,4 +1,4 @@
-#Wed Sep 06 23:34:10 EAT 2017
+#Thu Sep 07 18:31:20 EAT 2017
 base.0=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e9bd5223f351f42d9a83ba09d8ca078e7a95943
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -1,19 +1,7 @@
 [
     {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ololua.png",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/src/main/res/mipmap-xhdpi/ololua.png"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/pic1.png",
         "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/mipmap-xhdpi/pic1.png"
-    },
-    {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/welcome_screen.jpg",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/src/main/res/mipmap-xhdpi/welcome_screen.jpg"
-    },
-    {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/mtkenya.png",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/src/main/res/mipmap-xhdpi/mtkenya.png"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/mtkenya.png",
@@ -24,16 +12,8 @@
         "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/mipmap-xhdpi/ololua.png"
     },
     {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/nekkta_icon.png",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/src/main/res/mipmap-xhdpi/nekkta_icon.png"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/nekkta_icon.png",
         "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/mipmap-xhdpi/nekkta_icon.png"
-    },
-    {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/pic1.png",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/src/main/res/mipmap-xhdpi/pic1.png"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/welcome_screen.jpg",

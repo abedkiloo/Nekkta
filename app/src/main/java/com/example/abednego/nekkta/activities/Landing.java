@@ -17,6 +17,7 @@ import android.view.MenuItem;
 
 import com.example.abednego.nekkta.Fragments.BucketFragment;
 import com.example.abednego.nekkta.Fragments.CommunityFragment;
+import com.example.abednego.nekkta.Fragments.FeedsFragment;
 import com.example.abednego.nekkta.Fragments.ProfileFragment;
 import com.example.abednego.nekkta.R;
 
@@ -56,6 +57,7 @@ public class Landing extends AppCompatActivity
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new BucketFragment(), getResources().getString(R.string.title_bucket));
+        adapter.addFragment(new FeedsFragment(), getResources().getString(R.string.trending_suggestions));
         adapter.addFragment(new CommunityFragment(), getResources().getString(R.string.title_community));
         adapter.addFragment(new ProfileFragment(), getResources().getString(R.string.title_profile));
         viewPager.setAdapter(adapter);
@@ -133,8 +135,6 @@ public class Landing extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
 

@@ -1,5 +1,5 @@
--injars /home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
--outjars /home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/multi-dex/debug/componentClasses.jar
+-injars /home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
+-outjars /home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/multi-dex/debug/componentClasses.jar
 
 -libraryjars /home/abedkiloo/Android/Sdk/build-tools/26.0.1/lib/shrinkedAndroid.jar
 
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration /home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/multi-dex/debug/components.flags
+-printconfiguration /home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/multi-dex/debug/components.flags
 
 
 -keep public class * extends android.app.Instrumentation {

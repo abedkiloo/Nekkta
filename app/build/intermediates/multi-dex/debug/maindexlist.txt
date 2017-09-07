@@ -1,5 +1,4 @@
 android/support/v7/widget/FastScroller$State.class
-android/support/customtabs/CustomTabsIntent$Builder.class
 android/support/design/widget/BaseTransientBottomBar$Behavior.class
 android/support/v7/widget/RecyclerView$6.class
 android/support/v4/app/FrameMetricsAggregator$MetricType.class
@@ -25,7 +24,6 @@ android/support/annotation/IdRes.class
 android/support/v4/view/ViewPager$4.class
 android/support/annotation/ColorInt.class
 android/support/design/widget/FloatingActionButtonImpl.class
-android/support/customtabs/CustomTabsService.class
 android/support/annotation/RawRes.class
 android/support/v7/recyclerview/R$styleable.class
 android/support/v4/widget/CircularProgressDrawable$1.class
@@ -47,15 +45,12 @@ android/support/design/widget/BaseTransientBottomBar$2.class
 com/google/android/gms/common/util/DynamiteApi.class
 android/support/v4/widget/DrawerLayout.class
 android/support/v4/media/session/PlaybackStateCompat$ShuffleMode.class
-com/facebook/appevents/AppEventsConstants.class
 android/support/v4/widget/CircularProgressDrawable$Ring.class
 android/support/transition/Styleable$VisibilityTransition.class
-com/facebook/share/model/ShareLinkContent$Builder.class
 android/support/design/widget/BaseTransientBottomBar$OnLayoutChangeListener.class
 android/support/transition/Transition.class
 android/support/v4/view/ViewCompat$ViewCompatApi24Impl.class
 com/google/android/gms/internal/zztc.class
-android/support/customtabs/CustomTabsSession.class
 android/support/annotation/Dimension.class
 android/support/v7/widget/RecyclerView$ItemAnimator.class
 android/support/design/widget/TabLayout$OnTabSelectedListener.class
@@ -86,18 +81,15 @@ android/support/multidex/MultiDex.class
 android/support/v4/app/FragmentActivity.class
 android/support/v4/media/session/MediaSessionCompat$1.class
 android/support/v4/app/FragmentTabHost.class
-android/support/customtabs/ICustomTabsService.class
 android/support/design/widget/FloatingActionButton$1.class
 android/support/v4/app/FrameMetricsAggregator$FrameMetricsApi24Impl.class
 android/support/transition/Slide$2.class
-com/google/zxing/oned/rss/AbstractRSSReader.class
 android/support/v4/util/ArrayMap.class
 android/support/design/widget/BaseTransientBottomBar$7.class
 android/support/v4/view/ViewCompat$ViewCompatApi17Impl.class
 android/support/v4/app/NotificationCompat$NotificationCompatImpl.class
 android/support/design/widget/TabLayout$TabLayoutOnPageChangeListener.class
 android/support/design/widget/FloatingActionButton$Behavior.class
-com/facebook/share/widget/CreateAppGroupDialog$Result.class
 android/support/v4/view/PointerIconCompat.class
 android/support/transition/ViewGroupOverlayImpl.class
 android/support/design/widget/BaseTransientBottomBar$9.class
@@ -136,7 +128,6 @@ android/support/transition/WindowIdImpl.class
 android/support/v4/app/NotificationCompat$BuilderExtender.class
 android/support/v4/media/MediaBrowserCompat$SearchCallback.class
 android/support/v7/view/menu/CascadingMenuPopup$1.class
-android/support/customtabs/CustomTabsSessionToken.class
 android/support/v7/app/ActionBar$LayoutParams.class
 android/support/v4/content/ParallelExecutorCompat.class
 android/support/v4/widget/CircularProgressDrawable.class
@@ -150,7 +141,6 @@ android/support/annotation/Nullable.class
 android/support/v7/widget/ViewBoundsCheck$Callback.class
 android/support/v4/util/Pools$SimplePool.class
 android/support/v4/util/ArrayMap$1.class
-com/facebook/share/widget/JoinAppGroupDialog.class
 android/support/annotation/RequiresPermission$Read.class
 android/support/annotation/ArrayRes.class
 android/support/transition/Slide$4.class
@@ -216,7 +206,6 @@ android/support/annotation/AnyThread.class
 android/support/v4/net/TrafficStatsCompat.class
 android/support/design/widget/BaseTransientBottomBar$Duration.class
 android/support/v4/view/AccessibilityDelegateCompat.class
-com/facebook/appevents/AppEventsLogger.class
 android/support/v4/widget/ScrollerCompat.class
 android/support/annotation/StringRes.class
 android/support/v4/math/MathUtils.class
@@ -245,7 +234,6 @@ android/support/v4/view/animation/LookupTableInterpolator.class
 android/support/v4/os/TraceCompat.class
 android/support/v7/widget/AdapterHelper$Callback.class
 android/support/v4/widget/SearchViewCompat$OnQueryTextListener.class
-com/google/zxing/EncodeHintType.class
 com/google/android/gms/measurement/AppMeasurement.class
 android/support/v7/appcompat/R$styleable.class
 android/support/v7/widget/FastScroller.class
@@ -263,7 +251,6 @@ com/google/android/gms/common/GooglePlayServicesUtil.class
 android/support/v4/view/ViewCompat$ResolvedLayoutDirectionMode.class
 android/support/v7/widget/LinearLayoutCompat$DividerMode.class
 android/support/v7/widget/RecyclerView$OnFlingListener.class
-com/facebook/FacebookSdk.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable$ArrowDirection.class
 android/support/v7/widget/RecyclerView$AdapterDataObserver.class
 android/support/design/widget/HeaderBehavior$FlingRunnable.class
@@ -272,7 +259,6 @@ android/support/v7/widget/RecyclerView$ItemAnimator$AdapterChanges.class
 com/google/android/gms/common/api/Scope.class
 android/support/v7/widget/RecyclerView$3.class
 android/support/design/widget/SwipeDismissBehavior.class
-bolts/AggregateException.class
 android/support/v4/print/PrintHelper$Orientation.class
 android/support/design/widget/ShadowViewDelegate.class
 android/support/v4/media/session/MediaSessionCompat$Callback.class
@@ -296,7 +282,6 @@ android/support/v4/media/MediaBrowserCompatApi21.class
 com/google/android/gms/common/internal/zzg.class
 android/support/v7/widget/ViewBoundsCheck.class
 com/google/android/gms/common/util/zzs.class
-com/google/zxing/common/BitMatrix.class
 android/support/v4/print/PrintHelper$ScaleMode.class
 android/support/v4/media/session/MediaSessionCompat$Token.class
 android/support/transition/TransitionPropagation.class
@@ -334,9 +319,7 @@ android/support/v4/media/MediaBrowserCompat$MediaBrowserServiceCallbackImpl.clas
 android/support/annotation/DrawableRes.class
 android/support/v4/media/MediaMetadataCompat$BitmapKey.class
 android/support/v4/text/TextUtilsCompat.class
-android/support/customtabs/CustomTabsService$Result.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi19.class
-com/facebook/share/widget/CreateAppGroupDialog.class
 android/support/v4/util/MapCollections.class
 android/support/v4/graphics/drawable/DrawableCompat.class
 android/support/multidex/ZipUtil$CentralDirectory.class
@@ -380,13 +363,11 @@ android/support/v4/widget/CursorAdapter.class
 com/google/android/gms/internal/zzakt.class
 android/support/v4/content/WakefulBroadcastReceiver.class
 android/support/v7/widget/RecyclerView$ItemAnimator$ItemAnimatorListener.class
-com/facebook/share/model/ShareMedia$Builder.class
 com/google/android/gms/common/internal/zzaf.class
 android/support/design/widget/ViewOffsetBehavior.class
 android/support/v7/widget/RecyclerView$RecyclerListener.class
 android/support/v4/widget/SimpleCursorAdapter.class
 android/support/v4/app/NotificationCompatApi24$Builder.class
-com/google/zxing/common/detector/MonochromeRectangleDetector.class
 android/support/v7/app/AppCompatDelegateImplBase.class
 android/support/v7/view/menu/CascadingMenuPopup.class
 android/support/design/widget/BaseTransientBottomBar$8.class
@@ -418,7 +399,6 @@ android/support/v4/view/PagerAdapter.class
 android/support/v4/app/NotificationCompatApi21.class
 com/google/android/gms/common/zze.class
 android/support/transition/Visibility$VisibilityInfo.class
-com/facebook/share/model/ShareLinkContent.class
 android/support/annotation/GuardedBy.class
 android/support/v4/widget/ViewDragHelper.class
 android/support/v4/view/ViewPager$3.class
@@ -426,7 +406,6 @@ android/support/v4/util/Pools$SynchronizedPool.class
 android/support/v7/widget/RecyclerView$ItemDecoration.class
 android/support/v4/view/LayoutInflaterCompat.class
 android/support/v7/view/menu/MenuItemImpl.class
-com/google/zxing/client/result/EmailAddressParsedResult.class
 android/support/design/widget/TabLayout$Mode.class
 android/support/annotation/AnimatorRes.class
 android/support/v7/widget/MenuPopupWindow.class
@@ -447,7 +426,6 @@ android/support/v4/view/PagerTitleStrip.class
 android/support/design/widget/ViewUtilsLollipop.class
 android/support/v4/media/AudioAttributesCompat$AttributeContentType.class
 android/support/v4/view/NestedScrollingChild2.class
-android/support/customtabs/ICustomTabsService$Stub.class
 android/support/v4/media/RatingCompat$1.class
 android/support/v7/view/menu/MenuAdapter.class
 android/support/v7/widget/RecyclerViewAccessibilityDelegate.class
@@ -456,7 +434,6 @@ android/support/v4/media/MediaMetadataCompatApi21.class
 android/support/design/widget/BaseTransientBottomBar$11.class
 android/support/v4/content/res/FontResourcesParserCompat$FontFileResourceEntry.class
 com/google/android/gms/R.class
-com/google/zxing/pdf417/PDF417Common.class
 com/google/android/gms/internal/zzakh.class
 android/support/annotation/IntegerRes.class
 android/support/design/widget/TabLayout$Tab.class
@@ -562,7 +539,6 @@ android/support/v7/widget/RecyclerView$OnScrollListener.class
 android/support/v4/view/ViewPager$1.class
 android/support/annotation/StyleableRes.class
 android/support/v4/view/ViewPager$LayoutParams.class
-bolts/WebViewAppLinkResolver$2$2.class
 com/android/volley/toolbox/ImageRequest.class
 android/support/transition/ViewUtils.class
 android/support/v4/media/session/MediaControllerCompat$TransportControls.class
@@ -572,7 +548,6 @@ android/support/design/widget/BaseTransientBottomBar.class
 android/support/transition/TranslationAnimationCreator.class
 android/support/annotation/LayoutRes.class
 android/support/design/widget/AppBarLayout$LayoutParams.class
-android/support/customtabs/CustomTabsService$1.class
 com/google/android/gms/dynamic/zzg.class
 android/support/transition/Transition$2.class
 android/support/annotation/StyleRes.class
@@ -597,7 +572,6 @@ com/google/android/gms/internal/zzakv.class
 android/support/v4/view/ViewConfigurationCompat.class
 android/support/v4/app/NotificationBuilderWithActions.class
 android/support/design/widget/CoordinatorLayout$ViewElevationComparator.class
-com/facebook/share/model/ShareMedia.class
 android/support/v4/view/ViewCompat$FocusDirection.class
 android/support/v7/appcompat/R$dimen.class
 android/support/v4/app/FragmentManager.class
@@ -705,7 +679,6 @@ android/support/design/widget/TabLayout$1.class
 android/support/design/widget/CoordinatorLayout$DispatchChangeEvent.class
 android/support/v4/media/MediaBrowserCompat$ItemReceiver.class
 android/support/v4/view/MotionEventCompat.class
-com/facebook/share/widget/JoinAppGroupDialog$Result.class
 android/support/v4/app/RemoteInput.class
 com/google/android/gms/common/internal/safeparcel/SafeParcelable.class
 android/support/v4/app/ActionBarDrawerToggle$DelegateProvider.class

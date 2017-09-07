@@ -2,145 +2,104 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="22"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1504730042726"
-    token="2899880342520603954"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="1504798277250"
+    token="-562014769632199971"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1122" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="575" />
+        duration="0" />
     <task
         name="verifier"
-        duration="62" />
+        duration="0" />
 
     <artifact
-        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
+        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
-        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
         location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1504729552065"
+        timestamp="1504798277250"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta-nekkta_changes/app/build/outputs/apk/app-debug.apk"
+            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1504730042726"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

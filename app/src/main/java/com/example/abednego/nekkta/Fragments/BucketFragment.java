@@ -17,6 +17,8 @@ import android.widget.Toast;
 
 import com.example.abednego.nekkta.R;
 import com.example.abednego.nekkta.activities.NewBucketActivity;
+import com.example.abednego.nekkta.adapters.FeedsAdapter;
+import com.example.abednego.nekkta.data_holder.FeedsDataSet;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,15 +30,12 @@ import io.github.luizgrp.sectionedrecyclerviewadapter.SectionedRecyclerViewAdapt
 import io.github.luizgrp.sectionedrecyclerviewadapter.StatelessSection;
 
 public class BucketFragment extends Fragment {
-    FragmentManager fragmentManager;
-    FragmentTransaction fragmentTransaction;
+
     Map<String, ArrayList<String>> buckets = new HashMap<String, ArrayList<String>>();
     ArrayList<String> group_buckets;
     ArrayList<String> trending;
     ArrayList<String> my_buckets;
 
-
-    
 
     private SectionedRecyclerViewAdapter sectionAdapter;
     private FloatingActionButton new_bucketFloatingActionButton;
@@ -49,7 +48,7 @@ public class BucketFragment extends Fragment {
         sectionAdapter = new SectionedRecyclerViewAdapter();
 
 
-        my_buckets=new ArrayList<>();
+        my_buckets = new ArrayList<>();
         my_buckets.add("Laptop Project");
         my_buckets.add("Birthday Outing");
 
@@ -93,7 +92,7 @@ public class BucketFragment extends Fragment {
 //            }
 //        }
 
-        RecyclerView recyclerView = (RecyclerView) v.findViewById(R.id.recyclerview);
+        RecyclerView recyclerView = (RecyclerView) v.findViewById(R.id.buckets_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(sectionAdapter);
 
@@ -106,7 +105,7 @@ public class BucketFragment extends Fragment {
                 /**
                  *   get fragment manager & transaction
                  */
-                getActivity().startActivity(new Intent(getContext(),NewBucketActivity.class));
+                getActivity().startActivity(new Intent(getContext(), NewBucketActivity.class));
 
 //                fragmentManager = getActivity().getSupportFragmentManager();
 
@@ -118,7 +117,7 @@ public class BucketFragment extends Fragment {
             }
         });
 
-
+        ;
         return v;
     }
 
@@ -230,4 +229,6 @@ public class BucketFragment extends Fragment {
             tvItemNumber = view.findViewById(R.id.tvItemNumber);
         }
     }
+
+
 }

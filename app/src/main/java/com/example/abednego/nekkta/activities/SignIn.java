@@ -9,7 +9,7 @@ import android.view.View;
 import com.example.abednego.nekkta.R;
 //import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.facebook.CallbackManager;
+//import com.facebook.CallbackManager;
 
 
 public class SignIn extends AppCompatActivity {
@@ -18,7 +18,7 @@ public class SignIn extends AppCompatActivity {
 //    FirebaseAuth firebaseAuth;
 
     // [END declare_auth]
-    private CallbackManager mCallbackManager;
+//    private CallbackManager mCallbackManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class SignIn extends AppCompatActivity {
 //        firebaseAuth = FirebaseAuth.getInstance();
         // [START initialize_fblogin]
         // Initialize Facebook Login button
-        mCallbackManager = CallbackManager.Factory.create();
+//        mCallbackManager = CallbackManager.Factory.create();
 
         //clicked sign up here
         fb_sign_in_details();

@@ -69,12 +69,11 @@
     <string name="title_community">Community</string>
     <string name="title_account">Account</string>
     <string name="title_profile">Profile</string>
+    <string name="trending_suggestions">Trending &amp; Suggestions</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
-
 
     <string name="action_settings">Settings</string>
 
@@ -104,4 +103,5 @@
 
     <!--facebook id-->
     <string name="facebook_app_id">127035157936099</string>
+    <string name="lists">Lists</string>
 </resources>

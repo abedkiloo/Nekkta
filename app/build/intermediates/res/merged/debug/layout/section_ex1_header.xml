@@ -16,7 +16,6 @@
         android:layout_marginLeft="15dp"
         android:layout_marginStart="15dp"
         tools:text="Title test text"
-        android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textStyle="bold"
         android:id="@+id/tvTitle" />
