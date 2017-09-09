@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.abednego.nekkta.activities.SignUp">
 
     <RelativeLayout
@@ -67,7 +68,9 @@
 
                     <android.support.design.widget.TextInputEditText
                         android:layout_width="match_parent"
+                        android:id="@+id/text_input_signup_email"
                         android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
                         android:drawableLeft="@drawable/email_drawable"
                         android:drawableStart="@drawable/email_drawable"
                         android:hint="@string/email" />
@@ -82,6 +85,7 @@
                     <android.support.design.widget.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:id="@+id/text_input_signup_user_name"
                         android:drawableLeft="@drawable/person_drawable"
                         android:drawableStart="@drawable/person_drawable"
                         android:hint="@string/user_number" />
@@ -91,14 +95,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/sp_48"
+                    app:passwordToggleEnabled="true"
                     android:paddingRight="@dimen/sp_48">
 
                     <android.support.design.widget.TextInputEditText
+                        android:id="@+id/text_input_signup_user_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="textPassword"
                         android:drawableLeft="@drawable/password_drawable"
                         android:drawableStart="@drawable/password_drawable"
-                        android:hint="@string/password_placeholder" />
+                        android:hint="@string/password" />
                 </android.support.design.widget.TextInputLayout>
 
                 <LinearLayout
@@ -144,6 +151,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/color_accent_custom_drawable"
                     android:paddingLeft="@dimen/sp_24"
+                    android:id="@+id/btn_sign_up"
                     android:paddingRight="@dimen/sp_24"
                     android:text="@string/sign_up"
                     android:textAllCaps="false"

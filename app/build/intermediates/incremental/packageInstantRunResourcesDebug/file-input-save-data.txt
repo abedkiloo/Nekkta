@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Sep 07 18:31:19 EAT 2017
+#Sat Sep 09 13:51:52 EAT 2017
 20.base=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/resources-debug.ap_
 143.base=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/resources-debug.ap_
 340.file=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxhdpi-v4/nekkta_icon.png

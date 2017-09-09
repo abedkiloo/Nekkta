@@ -33,6 +33,7 @@
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
     <string name="email">Email</string>
+    <string name="email_or_user_name">Email or  User Name</string>
     <string name="phone_number">Phone Number</string>
     <string name="user_number">User Name</string>
 
@@ -44,6 +45,7 @@
     <string name="email_ask">Please text me your email address</string>
     <string name="email_placeholder">user_email</string>
     <string name="password_placeholder">user_password</string>
+    <string name="password">User Password</string>
     <string name="user_year_of_birth">user_year_of_birth</string>
     <string name="phone_ask">Have a phone number!</string>
     <string name="phone_number_placeholder">user_phone_numbe</string>
@@ -104,4 +106,5 @@
     <!--facebook id-->
     <string name="facebook_app_id">127035157936099</string>
     <string name="lists">Lists</string>
+
 </resources>

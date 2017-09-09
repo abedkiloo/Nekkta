@@ -871,6 +871,7 @@
     <string name="email">Email</string>
     <string name="email_ask">Please text me your email address</string>
     <string name="email_error">This is not a valid email address</string>
+    <string name="email_or_user_name">Email or  User Name</string>
     <string name="email_placeholder">user_email</string>
     <string name="facebook_app_id">127035157936099</string>
     <string name="fb_sign_in">Sign in with Facebook</string>
@@ -900,6 +901,7 @@
     <string name="no_create_account">No. Create An Account</string>
     <string name="not_a_member">Not a member ?</string>
     <string name="or">or</string>
+    <string name="password">User Password</string>
     <string name="password_error">The password should have one lower case letter and upper case and a number</string>
     <string name="password_placeholder">user_password</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>

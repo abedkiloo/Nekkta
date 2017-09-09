@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,6 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <ProgressBar
+            android:id="@+id/sign_in_progress"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indeterminate="true"
+            android:indeterminateBehavior="cycle" />
+
         <android.support.v7.widget.AppCompatTextView
             android:id="@+id/text_view_label_app"
             android:layout_width="wrap_content"
@@ -17,9 +26,9 @@
             android:layout_marginBottom="@dimen/sp_24"
             android:paddingTop="@dimen/sp_12"
             android:text="@string/app_name"
-            android:typeface="monospace"
             android:textSize="@dimen/sp_48"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:typeface="monospace" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -27,6 +36,7 @@
             android:layout_below="@+id/text_view_label_app"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true">
+
             <android.support.v7.widget.AppCompatTextView
                 android:id="@+id/google_text_view_sign_in"
                 android:layout_width="wrap_content"
@@ -65,25 +75,29 @@
                     android:paddingRight="@dimen/sp_48">
 
                     <android.support.design.widget.TextInputEditText
+                        android:id="@+id/sign_in_user_name_email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:drawableLeft="@drawable/person_drawable"
                         android:drawableStart="@drawable/person_drawable"
-                        android:hint="@string/email" />
+                        android:hint="@string/email_or_user_name" />
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/sp_48"
-                    android:paddingRight="@dimen/sp_48">
+                    android:paddingRight="@dimen/sp_48"
+                    app:passwordToggleEnabled="true">
 
                     <android.support.design.widget.TextInputEditText
+                        android:id="@+id/sign_in_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:drawableLeft="@drawable/password_drawable"
                         android:drawableStart="@drawable/password_drawable"
-                        android:hint="@string/password_placeholder" />
+                        android:hint="@string/password"
+                        android:inputType="textPassword" />
                 </android.support.design.widget.TextInputLayout>
 
                 <LinearLayout
@@ -125,10 +139,10 @@
                 android:orientation="vertical">
 
                 <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/sign_in_btn_sign_in"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/color_accent_custom_drawable"
-                    android:onClick="sign_in"
                     android:paddingLeft="@dimen/sp_24"
                     android:paddingRight="@dimen/sp_24"
                     android:text="@string/sign_in"

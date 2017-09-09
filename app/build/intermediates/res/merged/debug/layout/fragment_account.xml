@@ -46,6 +46,7 @@
             android:padding="@dimen/sp_34">
 
             <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/account_names"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Samson Mzera"
