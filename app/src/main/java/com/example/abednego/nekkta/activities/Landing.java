@@ -1,5 +1,6 @@
 package com.example.abednego.nekkta.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
@@ -20,6 +21,8 @@ import com.example.abednego.nekkta.Fragments.CommunityFragment;
 import com.example.abednego.nekkta.Fragments.FeedsFragment;
 import com.example.abednego.nekkta.Fragments.ProfileFragment;
 import com.example.abednego.nekkta.R;
+import com.example.abednego.nekkta.data_holder.NekktaConfig;
+import com.example.abednego.nekkta.data_holder.NekktaPreferences;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,12 +31,16 @@ public class Landing extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private TabLayout tabLayout;
     private ViewPager viewPager;
+    NekktaPreferences nekktaPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
-
+        nekktaPreferences = new NekktaPreferences(getApplicationContext());
+        if (nekktaPreferences.getPreferences(NekktaConfig.saved_user_name).equals("")) {
+            startActivity(new Intent(getApplicationContext(), SignIn.class));
+        }
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -52,12 +59,20 @@ public class Landing extends AppCompatActivity
 
         tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+        setTabIcons();
+    }
+
+    public void setTabIcons() {
+        tabLayout.getTabAt(0).setIcon(getResources().getDrawable(R.drawable.feeds_drawable));
+        tabLayout.getTabAt(1).setIcon(getResources().getDrawable(R.drawable.buckets_drawable));
+        tabLayout.getTabAt(2).setIcon(getResources().getDrawable(R.drawable.community_drawable));
+        tabLayout.getTabAt(3).setIcon(getResources().getDrawable(R.drawable.account_drawable));
     }
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new BucketFragment(), getResources().getString(R.string.title_bucket));
         adapter.addFragment(new FeedsFragment(), getResources().getString(R.string.trending_suggestions));
+        adapter.addFragment(new BucketFragment(), getResources().getString(R.string.title_bucket));
         adapter.addFragment(new CommunityFragment(), getResources().getString(R.string.title_community));
         adapter.addFragment(new ProfileFragment(), getResources().getString(R.string.title_profile));
         viewPager.setAdapter(adapter);
@@ -88,7 +103,8 @@ public class Landing extends AppCompatActivity
 
         @Override
         public CharSequence getPageTitle(int position) {
-            return mFragmentTitleList.get(position);
+            return null;
+//            return mFragmentTitleList.get(position);
         }
     }
 

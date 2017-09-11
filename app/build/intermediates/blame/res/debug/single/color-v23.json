@@ -12,6 +12,10 @@
         "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/abedkiloo/.android/build-cache/56ef2add168e1b799fcdfb74aa46e74196e610bb/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
         "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/color-v23/abc_tint_switch_track.xml"
     },

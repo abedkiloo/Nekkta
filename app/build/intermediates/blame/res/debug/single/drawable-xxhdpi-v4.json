@@ -36,20 +36,20 @@
         "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/message_drawable.png",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/message_drawable.png"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png",
         "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/message_drawable.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/message_drawable.png"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_plus_signin_btn_text_light_disabled.9.png",
         "source": "/home/abedkiloo/.android/build-cache/14e6321609e5a3a03160f1aa788c680d545ddbf3/output/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
@@ -144,6 +144,10 @@
         "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/liked_drawable.png"
     },
     {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/feeds_drawable.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/feeds_drawable.png"
+    },
+    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
         "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
@@ -182,10 +186,6 @@
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
         "source": "/home/abedkiloo/.android/build-cache/14e6321609e5a3a03160f1aa788c680d545ddbf3/output/res/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/person_drawable.png",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/person_drawable.png"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png",
@@ -250,6 +250,10 @@
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
         "source": "/home/abedkiloo/.android/build-cache/14e6321609e5a3a03160f1aa788c680d545ddbf3/output/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/join_feed.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/join_feed.png"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
@@ -354,6 +358,10 @@
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png",
         "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/buckets_drawable.png",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/drawable-xxhdpi/buckets_drawable.png"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png",

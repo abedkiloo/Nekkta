@@ -43,8 +43,8 @@ public class FeedsAdapter extends RecyclerView.Adapter<FeedsAdapter.FeedsView> {
         holder.header_icon.setImageResource(feedsDataSet.getHeader_icon() != 0 ? feedsDataSet.getHeader_icon() : R.mipmap.nekkta_icon);
         holder.feeds_header_time_counter.setText(feedsDataSet.getFeed_timer());
         holder.feeds_description_header_tv.setText(feedsDataSet.getFeed_header_description());
-        holder.feeds_tv_comments_counter.setText(feedsDataSet.getFeed_comments_counter());
-        holder.feeds_tv_likes_counter.setText(feedsDataSet.getFeed_like_counter());
+//        holder.feeds_tv_comments_counter.setText(feedsDataSet.getFeed_comments_counter());
+//        holder.feeds_tv_likes_counter.setText(feedsDataSet.getFeed_like_counter());
         holder.feed_image_view.setImageResource(feedsDataSet.getFeed_image());
     }
 
@@ -65,8 +65,8 @@ public class FeedsAdapter extends RecyclerView.Adapter<FeedsAdapter.FeedsView> {
             feeds_description_header_tv = itemView.findViewById(R.id.feeds_description_header);
             feeds_header_tv = itemView.findViewById(R.id.feeds_heading);
             feed_image_view = itemView.findViewById(R.id.feeds_image_view);
-            feeds_tv_comments_counter = itemView.findViewById(R.id.feeds_comment_tv_counter);
-            feeds_tv_likes_counter = itemView.findViewById(R.id.feeds_like_tv_counter);
+//            feeds_tv_comments_counter = itemView.findViewById(R.id.feeds_comment_tv_counter);
+//            feeds_tv_likes_counter = itemView.findViewById(R.id.feeds_like_tv_counter);
         }
     }
 }

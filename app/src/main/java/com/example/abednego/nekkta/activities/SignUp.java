@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -33,7 +34,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
     AppCompatButton button_sign_up;
     String string_user_email, string_user_password, string_user_name;
     NekktaPreferences nekktaPreferences;
-
+    ProgressBar sign_up_progressBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,6 +64,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
         edit_text_signup_user_name = findViewById(R.id.text_input_signup_user_name);
         edit_text_signup_user_paasword = findViewById(R.id.text_input_signup_user_password);
         button_sign_up = findViewById(R.id.btn_sign_up);
+        sign_up_progressBar=findViewById(R.id.sign_up_progress);
 
     }
 
@@ -90,7 +92,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
     }
 
     private void make_server_request() {
-
+        sign_up_progressBar.setVisibility(View.VISIBLE);
         StringRequest sign_up_req = new StringRequest(Request.Method.POST, NekktaConfig.SIGN_UP_URL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -104,7 +106,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                                     string_user_name);
                             nekktaPreferences.putValuetoShared(NekktaConfig.saved_user_email,
                                     string_user_email);
-
+                            sign_up_progressBar.setVisibility(View.GONE);
                             startActivity(new Intent(getApplicationContext(), Landing.class));
                         } else {
                             Toast.makeText(SignUp.this, "Failed SignUp Please Try Again", Toast.LENGTH_SHORT).show();
@@ -117,6 +119,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
+                sign_up_progressBar.setVisibility(View.GONE);
                 Toast.makeText(SignUp.this, "Failed SignUp Please Check your Internet Connection", Toast.LENGTH_SHORT).show();
             }
         }) {

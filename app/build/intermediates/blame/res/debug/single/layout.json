@@ -208,6 +208,10 @@
         "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/layout/fragment_new_bucket.xml"
     },
     {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout/bucket_list_item.xml",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/layout/bucket_list_item.xml"
+    },
+    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
         "source": "/home/abedkiloo/.android/build-cache/cddbab4e1ac95e859863b7ec6697f579c62695c1/output/res/layout/design_layout_tab_text.xml"
     },
@@ -296,10 +300,6 @@
         "source": "/home/abedkiloo/.android/build-cache/dc627380909b5a1fba9ef9c938f079847527bc4f/output/res/layout/messenger_button_send_blue_large.xml"
     },
     {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout/section_ex1_header.xml",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/layout/section_ex1_header.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
         "source": "/home/abedkiloo/.android/build-cache/e9ceb67baeb742ba7f31128e9a1878b70cd55b54/output/res/layout/notification_template_big_media_narrow_custom.xml"
     },
@@ -328,6 +328,10 @@
         "source": "/home/abedkiloo/.android/build-cache/cddbab4e1ac95e859863b7ec6697f579c62695c1/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout/buckets_header.xml",
+        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/layout/buckets_header.xml"
+    },
+    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
         "source": "/home/abedkiloo/.android/build-cache/e9ceb67baeb742ba7f31128e9a1878b70cd55b54/output/res/layout/notification_media_action.xml"
     },
@@ -350,10 +354,6 @@
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout/com_facebook_tooltip_bubble.xml",
         "source": "/home/abedkiloo/.android/build-cache/dc627380909b5a1fba9ef9c938f079847527bc4f/output/res/layout/com_facebook_tooltip_bubble.xml"
-    },
-    {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout/section_ex1_item.xml",
-        "source": "/home/abedkiloo/StudioProjects/Nekkta/app/src/main/res/layout/section_ex1_item.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",

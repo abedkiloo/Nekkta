@@ -137,19 +137,17 @@ public class SignIn extends AppCompatActivity implements View.OnClickListener {
     }
 
     private void sign_in_user() {
-        sign_in_progressBar.setVisibility(View.VISIBLE);
         sign_in_progressBar.setIndeterminate(true);
         string_user_name = edt_user_name_email.getText().toString();
         string_user_password = edt_user_password.getText().toString();
         if (check_empty(string_user_name, edt_user_name_email) || check_empty(string_user_password, edt_user_password)) {
             make_server_request();
-            sign_in_progressBar.setVisibility(View.GONE);
         }
 
     }
 
     private void make_server_request() {
-
+        sign_in_progressBar.setVisibility(View.VISIBLE);
         StringRequest sign_in_req = new StringRequest(Request.Method.POST, NekktaConfig.SIGN_IN_URL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -166,10 +164,12 @@ public class SignIn extends AppCompatActivity implements View.OnClickListener {
                                     server_objects.get("user_name").toString());
                             nekktaPreferences.putValuetoShared(NekktaConfig.saved_user_email,
                                     server_objects.get("user_email").toString());
+                            sign_in_progressBar.setVisibility(View.GONE);
 
                             startActivity(new Intent(getApplicationContext(), Landing.class));
                         } else {
                             Toast.makeText(SignIn.this, "Failed SignIn Please Try Again with correct values", Toast.LENGTH_SHORT).show();
+                            sign_in_progressBar.setVisibility(View.GONE);
                         }
                     }
                 } catch (JSONException e) {
@@ -179,6 +179,7 @@ public class SignIn extends AppCompatActivity implements View.OnClickListener {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
+                sign_in_progressBar.setVisibility(View.GONE);
                 Toast.makeText(SignIn.this, "Failed SignIn Please Check your Internet Connection", Toast.LENGTH_SHORT).show();
             }
         }) {
@@ -194,7 +195,6 @@ public class SignIn extends AppCompatActivity implements View.OnClickListener {
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
         requestQueue.add(sign_in_req);
     }
-
 
     private boolean check_empty(String text_, TextInputEditText _editText) {
         if (text_.equals("")) {

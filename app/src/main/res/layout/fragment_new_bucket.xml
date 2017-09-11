@@ -125,6 +125,7 @@
             android:text="@string/select_privacy" />
 
         <LinearLayout
+            android:layout_margin="@dimen/sp_18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -134,18 +135,12 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.4"
-                android:text="@string/selected_privacy_my_contacts" />
-
-            <CheckBox
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.3"
                 android:text="@string/selected_privacy_public" />
 
             <CheckBox
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.3"
+                android:layout_weight="0.4"
                 android:text="@string/selected_privacy_private" />
 
 
@@ -190,11 +185,11 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:onClick="btnCreate"
-        android:textColor="@color/color_al_white"
         android:background="@drawable/color_accent_custom_drawable"
+        android:onClick="btnCreate"
         android:padding="@dimen/sp_7"
+        android:text="@string/create"
         android:textAllCaps="false"
-        android:text="@string/create" />
+        android:textColor="@color/color_al_white" />
 
 </RelativeLayout>

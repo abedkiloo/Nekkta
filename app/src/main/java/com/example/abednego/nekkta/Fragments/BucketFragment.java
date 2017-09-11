@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -17,8 +15,6 @@ import android.widget.Toast;
 
 import com.example.abednego.nekkta.R;
 import com.example.abednego.nekkta.activities.NewBucketActivity;
-import com.example.abednego.nekkta.adapters.FeedsAdapter;
-import com.example.abednego.nekkta.data_holder.FeedsDataSet;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -155,8 +151,8 @@ public class BucketFragment extends Fragment {
         List<String> list;
 
         ContactsSection(String title, List<String> list) {
-            super(new SectionParameters.Builder(R.layout.section_ex1_item)
-                    .headerResourceId(R.layout.section_ex1_header)
+            super(new SectionParameters.Builder(R.layout.bucket_list_item)
+                    .headerResourceId(R.layout.buckets_header)
                     .build());
 
             this.title = title;

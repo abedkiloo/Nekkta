@@ -32,12 +32,12 @@
         "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/color/abc_tint_edittext.xml"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
         "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/color/abc_tint_edittext.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
@@ -90,6 +90,10 @@
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
         "source": "/home/abedkiloo/.android/build-cache/4519f967b7e0555c0aac66aa94b0a9a0e464ab81/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/abedkiloo/.android/build-cache/56ef2add168e1b799fcdfb74aa46e74196e610bb/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
