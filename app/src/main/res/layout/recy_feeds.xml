@@ -128,35 +128,53 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/layout_pic_of_feed">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="@dimen/sp_7"
-                    android:weightSum="1">
+                    android:layout_marginRight="@dimen/sp_12"
+                    android:layout_marginEnd="@dimen/sp_12"
+                    android:layout_toLeftOf="@+id/join_feed"
+                    android:layout_toStartOf="@+id/join_feed"
+                    android:src="@drawable/comment_drawable" />
 
-                    <android.support.v7.widget.AppCompatTextView
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.5"
-                        android:padding="@dimen/sp_7"
-                        android:textAlignment="center"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:drawableEnd="@drawable/comment_drawable"
-                        android:drawableRight="@drawable/comment_drawable"
-                        android:text="Comment" />
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/join_feed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/join_feed" />
 
-                    <android.support.v7.widget.AppCompatTextView
-                        android:layout_width="0dp"
-                        android:textAlignment="center"
-                        android:padding="@dimen/sp_3"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.5"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:drawableEnd="@drawable/join_feed"
-                        android:drawableRight="@drawable/join_feed"
-                        android:text="Join" />
-                </LinearLayout>
+                <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:padding="@dimen/sp_7"-->
+                <!--android:weightSum="1">-->
+
+                <!--<android.support.v7.widget.AppCompatTextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="0.5"-->
+                <!--android:padding="@dimen/sp_7"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:drawableEnd="@drawable/comment_drawable"-->
+                <!--android:drawableRight="@drawable/comment_drawable"-->
+                <!--android:text="Comment" />-->
+
+                <!--<android.support.v7.widget.AppCompatTextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:padding="@dimen/sp_3"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="0.5"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:drawableEnd="@drawable/join_feed"-->
+                <!--android:drawableRight="@drawable/join_feed"-->
+                <!--android:text="Join" />-->
+                <!--</LinearLayout>-->
             </RelativeLayout>
 
         </RelativeLayout>

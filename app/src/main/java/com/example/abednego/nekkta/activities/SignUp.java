@@ -6,6 +6,7 @@ import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
+import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -35,6 +36,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
     String string_user_email, string_user_password, string_user_name;
     NekktaPreferences nekktaPreferences;
     ProgressBar sign_up_progressBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,7 +66,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
         edit_text_signup_user_name = findViewById(R.id.text_input_signup_user_name);
         edit_text_signup_user_paasword = findViewById(R.id.text_input_signup_user_password);
         button_sign_up = findViewById(R.id.btn_sign_up);
-        sign_up_progressBar=findViewById(R.id.sign_up_progress);
+        sign_up_progressBar = findViewById(R.id.sign_up_progress);
 
     }
 
@@ -96,6 +98,9 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
         StringRequest sign_up_req = new StringRequest(Request.Method.POST, NekktaConfig.SIGN_UP_URL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
+
+//                Log.e("text", response);
+//                sign_up_progressBar.setVisibility(View.GONE);
                 try {
                     JSONObject jresponse = new JSONObject(response);
                     JSONArray jarray = jresponse.getJSONArray("register_user");
@@ -120,9 +125,10 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
             @Override
             public void onErrorResponse(VolleyError error) {
                 sign_up_progressBar.setVisibility(View.GONE);
-                Toast.makeText(SignUp.this, "Failed SignUp Please Check your Internet Connection", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SignUp.this, "Failed SignUp Please Check your Internet Connection and try again", Toast.LENGTH_SHORT).show();
             }
-        }) {
+        })
+        {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
@@ -131,7 +137,8 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                 params.put(NekktaConfig.key_sign_up_user_email, string_user_email);
                 return params;
             }
-        };
+        }
+        ;
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
         requestQueue.add(sign_up_req);
     }

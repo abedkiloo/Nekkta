@@ -16,12 +16,12 @@
         "source": "/home/abedkiloo/.android/build-cache/14e6321609e5a3a03160f1aa788c680d545ddbf3/output/res/drawable-tvdpi-v4/common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "/home/abedkiloo/.android/build-cache/14e6321609e5a3a03160f1aa788c680d545ddbf3/output/res/drawable-tvdpi-v4/common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
         "source": "/home/abedkiloo/.android/build-cache/14e6321609e5a3a03160f1aa788c680d545ddbf3/output/res/drawable-tvdpi-v4/common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/abedkiloo/.android/build-cache/14e6321609e5a3a03160f1aa788c680d545ddbf3/output/res/drawable-tvdpi-v4/common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_normal.9.png",

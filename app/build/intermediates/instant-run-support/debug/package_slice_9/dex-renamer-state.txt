@@ -1,4 +1,4 @@
-#Mon Sep 11 22:44:24 EAT 2017
+#Fri Sep 15 14:29:39 EAT 2017
 base.0=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
 renamed.0=classes.dex
 file.0=/home/abedkiloo/StudioProjects/Nekkta/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex

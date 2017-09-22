@@ -40,7 +40,8 @@
         <activity android:name="com.example.abednego.nekkta.activities.RegisterUser" />
         <activity android:name="com.example.abednego.nekkta.activities.SignIn" >
         </activity>
-        <activity android:name="com.example.abednego.nekkta.activities.SignUp" />
+        <activity android:name="com.example.abednego.nekkta.activities.SignUp" >
+        </activity>
         <activity
             android:name="com.example.abednego.nekkta.activities.NewBucketActivity"
             android:theme="@style/WhiteTheme" />
@@ -61,7 +62,7 @@
 
         <meta-data
             android:name="android.support.VERSION"
-            android:value="26.0.2" />
+            android:value="26.1.0" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -120,6 +121,9 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

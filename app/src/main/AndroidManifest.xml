@@ -25,7 +25,8 @@
         <activity android:name="com.example.abednego.nekkta.activities.RegisterUser" />
         <activity android:name="com.example.abednego.nekkta.activities.SignIn">
         </activity>
-        <activity android:name="com.example.abednego.nekkta.activities.SignUp" />
+        <activity android:name="com.example.abednego.nekkta.activities.SignUp" >
+        </activity>
         <activity
             android:name="com.example.abednego.nekkta.activities.NewBucketActivity"
             android:theme="@style/WhiteTheme" />
@@ -43,6 +44,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

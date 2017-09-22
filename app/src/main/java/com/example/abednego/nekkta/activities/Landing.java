@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -32,17 +33,22 @@ public class Landing extends AppCompatActivity
     private TabLayout tabLayout;
     private ViewPager viewPager;
     NekktaPreferences nekktaPreferences;
+    ActionBar actionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
         nekktaPreferences = new NekktaPreferences(getApplicationContext());
-        if (nekktaPreferences.getPreferences(NekktaConfig.saved_user_name).equals("")) {
+        if (nekktaPreferences.getPreferences(NekktaConfig.saved_user_name).equals("no_value")) {
             startActivity(new Intent(getApplicationContext(), SignIn.class));
         }
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
+        actionBar = getSupportActionBar();
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -59,6 +65,36 @@ public class Landing extends AppCompatActivity
 
         tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+        viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                switch (position) {
+                    case 0:
+                        actionBar.setTitle("Dashboard");
+                        break;
+                    case 1:
+                        actionBar.setTitle("Buckets");
+                        break;
+                    case 2:
+                        actionBar.setTitle("Community");
+                        break;
+                    case 3:
+                        actionBar.setTitle("Profile");
+                        break;
+                }
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+
+                actionBar.setTitle(getTitle());
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
         setTabIcons();
     }
 
@@ -99,6 +135,7 @@ public class Landing extends AppCompatActivity
         public void addFragment(Fragment fragment, String title) {
             mFragmentList.add(fragment);
             mFragmentTitleList.add(title);
+
         }
 
         @Override
